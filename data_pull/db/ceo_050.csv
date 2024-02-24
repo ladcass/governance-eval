@@ -1,0 +1,503 @@
+ticker,company_name,directorid,directorname,rolename,uniscoreavg,bachelors,masters,mba,phd,valid_start,valid_end,founder,internal_promotion,is_co_ceo,tenure
+A,Agilent Technologies,598782.0,Mike McMullen,President/CEO,64.96153846153847,True,False,True,False,2015.0,2024.0,False,True,False,3.0
+AAL,American Airlines Group,370540.0,Robert Isom Jr,President/CEO,65.15384615384615,True,False,True,False,2022.0,2024.0,False,True,False,3.0
+AAPL,Apple Inc.,55422.0,Tim Cook,CEO,54.50168269230769,True,False,True,False,2011.0,2024.0,False,True,False,3.0
+ABBV,AbbVie,33494.0,Rick Gonzalez,Chairman/CEO,40.33,False,False,False,False,2013.0,2024.0,False,False,False,9.0
+ABNB,Airbnb,1337127.0,Brian Chesky,Chairman/President/CEO,35.775000000000006,True,False,False,False,2020.0,2024.0,False,False,False,8.0
+ABT,Abbott,1528777.0,Robert Ford,Chairman/CEO,68.80192307692307,True,False,True,False,2021.0,2024.0,False,True,False,2.0
+ACGL,Arch Capital Group,204927.0,Marc Grandisson,CEO,64.01033653846154,True,False,True,False,2021.0,2024.0,False,True,False,9.0
+ACN,Accenture,1071350.0,Julie Sweet,CEO,67.25192307692308,True,False,False,True,2019.0,2021.0,False,True,False,8.0
+ADBE,Adobe Inc.,49351.0,Shantanu Narayen,Chairman/President/CEO,45.9557387057387,True,True,True,False,2017.0,2024.0,False,True,False,0.0
+ADI,Analog Devices,35469.0,Vincent Roche,Chair/President/CEO,30.5875,True,False,False,False,2022.0,2024.0,False,True,False,3.0
+ADM,Archer-Daniels-Midland,890753.0,Juan Luciano,Chairman/President/CEO,18.86,True,True,False,False,2016.0,2024.0,False,True,False,3.0
+ADP,Automated Data Processing,1467082.0,Maria Black,President/CEO,58.0,True,False,False,False,2023.0,2024.0,False,True,False,3.0
+ADSK,Autodesk,1203207.0,Doctor Andrew Anagnost,President/CEO,66.49615384615385,True,True,False,True,2017.0,2024.0,False,True,False,1.0
+AEE,Ameren,52502.0,Marty Lyons Jr,Chairman/President/CEO,47.5966079059829,True,True,True,False,2023.0,2024.0,False,True,False,3.0
+AEP,American Electric Power,594901.0,Julie Sloat,Chair/President/CEO,63.58461538461539,True,False,True,False,2023.0,2024.0,False,True,False,2.0
+AES,AES Corporation,452889.0,Doctor Andrés Gluski Weilert,President/CEO,32.88055555555556,True,True,False,True,2011.0,2024.0,False,True,False,11.0
+AFL,Aflac,36555.0,Dan Amos,CEO,35.79375,True,False,False,False,1990.0,1991.0,False,False,False,4.0
+AIG,American International Group,603421.0,Peter Zaffino,Chairman/President/CEO,48.44519230769231,True,False,True,False,2022.0,2024.0,False,True,False,8.0
+AIZ,Assurant,1449988.0,Keith Demmings,President/CEO,41.90833333333333,True,False,False,False,2022.0,2024.0,False,True,False,1.0
+AJG,Arthur J. Gallagher & Co.,81627.0,Pat Gallagher Jr,Chairman/CEO,75.78461538461539,True,False,False,False,2024.0,2024.0,False,True,False,3.0
+AKAM,Akamai,183176.0,Doctor Tom Leighton,CEO,92.7923076923077,True,False,False,True,2013.0,2024.0,False,True,False,3.0
+ALB,Albemarle Corporation,326618.0,Jerry Masters Jr,Chairman/President/CEO,75.5423076923077,True,False,True,False,2020.0,2024.0,False,True,False,2.0
+ALGN,Align Technology,32461.0,Joe Hogan,President/CEO,26.1625,True,False,True,False,2015.0,2024.0,False,False,False,5.0
+ALL,Allstate,34944.0,Tom Wilson II,Chairman/CEO,81.84230769230768,True,False,True,False,2015.0,2018.0,False,True,False,2.0
+ALLE,Allegion,1658940.0,John Stone,President/CEO,54.565384615384616,True,False,True,False,2022.0,2024.0,False,False,False,0.0
+AMAT,Applied Materials,50901.0,Gary Dickerson,President/CEO,38.65625,True,False,True,False,2013.0,2024.0,False,True,False,2.0
+AMCR,Amcor,501364.0,Ron Delia,CEO/MD,93.73076923076923,True,False,True,False,2015.0,2024.0,False,True,False,3.0
+AMD,Advanced Micro Devices,542142.0,Doctor Lisa Su,Chair/President/CEO,93.44615384615385,True,True,False,True,2022.0,2024.0,False,True,False,2.0
+AME,Ametek,1948570.0,Paul Anderson,President/CEO,39.192708333333336,False,True,False,False,2021.0,2024.0,False,True,False,5.0
+AMGN,Amgen,534543.0,Bob Bradway,Chairman/President/CEO,64.06538461538462,True,False,True,False,2013.0,2024.0,False,True,False,7.0
+AMP,Ameriprise Financial,33676.0,Jim Cracchiolo,Chairman/CEO,62.17307692307693,True,True,True,False,2005.0,2024.0,False,False,False,8.0
+AMT,American Tower,2037536.0,Steve Vondran,President/CEO,31.518749999999997,True,False,False,True,2024.0,2024.0,False,True,False,3.0
+AMZN,Amazon,536304.0,Andy Jassy,President/CEO,93.73076923076923,True,False,True,False,2021.0,2024.0,False,True,False,3.0
+ANET,Arista Networks,765053.0,Jayshree Ullal,Chairperson/President/CEO,22.415625,True,True,False,False,2023.0,2024.0,False,False,False,5.0
+ANSS,Ansys,545851.0,Doctor Ajei Gopal,President/CEO,59.945961538461546,True,True,False,True,2017.0,2024.0,False,True,False,2.0
+AON,Aon,350019.0,Greg Case,CEO,60.127884615384616,True,False,True,False,2018.0,2024.0,False,False,False,1.0
+AOS,A. O. Smith,1302544.0,Kevin Wheeler,Chairman/President/CEO,17.925,True,False,False,False,2020.0,2024.0,False,True,False,2.0
+APA,APA Corporation,535064.0,John Christmann IV,CEO,43.37471590909091,True,False,True,False,2024.0,2024.0,False,True,False,0.0
+APD,Air Products and Chemicals,24391.0,Seifi Ghasemi,Chairman/President/CEO,63.89711538461539,True,True,False,False,2014.0,2024.0,False,True,False,7.0
+APH,Amphenol,496788.0,Richard Norwitt,President/CEO,51.992948717948714,True,False,True,True,2009.0,2024.0,False,True,False,1.0
+APTV,Aptiv,273416.0,Kevin Clark,Chairman/President/CEO,59.62307692307692,True,False,True,False,2022.0,2024.0,False,True,False,4.0
+ARE,Alexandria Real Estate Equities,1011374.0,Peter Moglia,CEO/Chief Investment Officer,86.56923076923077,True,False,False,False,2023.0,2024.0,False,True,False,6.0
+ATO,Atmos Energy,806085.0,John Akers,President/CEO,36.85,True,False,False,False,2019.0,2024.0,False,True,False,2.0
+AVB,AvalonBay Communities,1192186.0,Benjamin Schall,President/CEO,64.06538461538462,True,False,True,False,2022.0,2024.0,False,True,False,4.0
+AVGO,Broadcom Inc.,102722.0,Hock Tan,President/CEO,93.54102564102566,True,True,True,False,2009.0,2024.0,False,False,False,4.0
+AVY,Avery Dennison,1861788.0,Deon Stander,President/CEO,50.11947115384615,True,False,True,False,2023.0,2024.0,False,True,False,8.0
+AWK,American Water Works,536969.0,M Hardwick,Executive VP/CFO/Interim CEO,42.667307692307695,True,True,False,False,2021.0,2022.0,False,True,False,1.0
+AXON,Axon Enterprise,345087.0,Rick Smith,CEO,66.89038461538462,True,True,True,False,1993.0,2024.0,False,False,False,0.0
+AXP,American Express,455385.0,Steve Squeri,Chairman/CEO,36.906060606060606,True,False,True,False,2018.0,2024.0,False,True,False,5.0
+AZO,AutoZone,1628612.0,Phil Daniele III,CEO-Elect,40.33,False,False,False,False,2023.0,2024.0,False,True,False,5.0
+BA,Boeing,32458.0,Dave Calhoun,President/CEO,42.5,True,False,False,False,2020.0,2024.0,False,True,False,7.0
+BAC,Bank of America,454544.0,Hans Vestberg,CEO,58.26153846153846,True,False,False,False,2018.0,2019.0,False,True,False,1.0
+BALL,Ball Corporation,1369925.0,Dan Fisher,Chairman Elect/President/CEO,56.52582417582417,True,False,True,False,2023.0,2023.0,False,True,False,1.0
+BAX,Baxter International,327852.0,Joe Almeida,Chairman/President/CEO,14.350000000000001,True,False,False,False,2016.0,2024.0,False,True,False,11.0
+BBWI,"Bath & Body Works, Inc.",376870.0,Gina Boswell,CEO,39.70961538461538,True,True,False,False,2022.0,2024.0,False,False,False,6.0
+BBY,Best Buy,1713009.0,Corie Barry,CEO,17.925,True,False,False,False,2019.0,2024.0,False,True,False,0.0
+BDX,Becton Dickinson,1353950.0,Fred Tejada,President/CEO,26.940624999999997,True,False,False,False,2021.0,2021.0,False,False,False,7.0
+BEN,Franklin Templeton,36581.0,Jenny Johnson,President/CEO,51.424009324009326,True,False,False,False,2020.0,2024.0,False,True,False,0.0
+BF.B,Brown–Forman,1113025.0,Lawson Whiting,CEO,52.94935897435898,True,False,True,False,2019.0,2019.0,False,True,False,0.0
+BG,Bunge Global SA,500231.0,Greg Heckman,Acting CEO,73.45384615384616,True,False,False,False,2019.0,2019.0,False,True,False,4.0
+BIIB,Biogen,1026.0,Chris Viehbacher,President/CEO,37.77847222222223,False,True,False,False,2022.0,2024.0,False,False,False,0.0
+BIO,Bio-Rad,181631.0,Norman Schwartz,Chairman/President/CEO,11.35,False,False,False,False,2012.0,2024.0,False,True,False,5.0
+BK,Bank of New York Mellon,1039254.0,Robin Vince,President/CEO Elect,40.33,False,False,False,False,2022.0,2022.0,False,False,False,1.0
+BKNG,Booking Holdings,549248.0,Glenn Fogel,President/CEO,89.85384615384615,True,False,False,True,2017.0,2019.0,False,True,False,4.0
+BKR,Baker Hughes,641184.0,Lorenzo Simonelli,Chairman/President/CEO,53.65,True,False,False,False,2017.0,2024.0,False,False,False,1.0
+BLDR,Builders FirstSource,2118406.0,Dave Rush,CEO,69.15384615384616,True,False,False,False,2023.0,2023.0,False,True,False,1.0
+BLK,BlackRock,12345.0,Co-CEO,CO-CEO,50.35,False,False,False,False,2009.0,2010.0,False,False,True,0.0
+BMY,Bristol Myers Squibb,1093830.0,Doctor Chris Boerner,CEO,82.97948717948718,True,True,False,True,2023.0,2024.0,False,True,False,0.0
+BR,Broadridge Financial Solutions,2794349.0,David Kinder,President/CEO,40.33,False,False,False,False,2024.0,2024.0,False,False,False,8.0
+BRK.B,Berkshire Hathaway,32543.0,Warren Buffett,Chairman/CEO,69.82403846153846,True,True,False,False,1970.0,2024.0,False,True,False,3.0
+BRO,Brown & Brown,33765.0,The Hon. J Brown,Chairman/Acting President/CEO,39.2015873015873,True,True,False,False,2012.0,2012.0,False,True,False,1.0
+BSX,Boston Scientific,879252.0,Mike Mahoney,Chairman/President/CEO,45.12948717948718,True,False,True,False,2016.0,2024.0,False,True,False,9.0
+BWA,BorgWarner,1195691.0,Frederic Lissalde,President/CEO,50.26538461538461,True,True,True,False,2018.0,2024.0,False,True,False,1.0
+BX,Blackstone,1257848.0,Chris Clinning,CEO,59.495913461538464,True,True,False,False,2015.0,2015.0,False,True,False,23.0
+BXP,Boston Properties,491901.0,Owen Thomas,CEO,60.409134615384616,True,False,True,False,2013.0,2022.0,False,False,False,6.0
+C,Citigroup,604912.0,Jane Fraser,CEO,55.846634615384616,True,True,True,False,2021.0,2024.0,False,True,False,5.0
+CAG,Conagra Brands,837621.0,Sean Connolly,CEO-Elect,66.56121794871795,True,False,True,False,2015.0,2015.0,False,False,False,0.0
+CAH,Cardinal Health,1798357.0,Jason Hollar,CEO,69.7,True,False,True,False,2022.0,2024.0,False,True,False,22.0
+CARR,Carrier Global,1335925.0,Dave Gitlin,Chairman/CEO,68.98942307692307,True,False,True,True,2021.0,2024.0,False,False,False,3.0
+CAT,Caterpillar Inc.,1079119.0,Jim Umpleby III,CEO,18.097767857142856,True,False,False,False,2017.0,2018.0,False,True,False,4.0
+CB,Chubb Limited,32638.0,Evan Greenberg,Chairman/CEO,40.33,False,False,False,False,2020.0,2024.0,False,True,False,2.0
+CBOE,Cboe Global Markets,338340.0,Fred Tomczyk,CEO,49.04070512820513,True,True,False,False,2023.0,2024.0,False,True,False,1.0
+CBRE,CBRE Group,272769.0,Bob Sulentic,Chair/President/CEO,67.23653846153846,True,False,True,False,2023.0,2024.0,False,True,False,5.0
+CCI,Crown Castle,888965.0,Tony Melone,Interim President/CEO,51.95096153846154,True,True,False,False,2024.0,2024.0,False,True,False,6.0
+CCL,Carnival,35264.0,Arnold Donald,President/CEO,40.74935897435898,True,False,True,False,2013.0,2022.0,False,True,False,0.0
+CDNS,Cadence Design Systems,550037.0,Doctor Anirudh Devgan,President/CEO,62.98692307692307,True,True,False,True,2021.0,2024.0,False,True,False,2.0
+CDW,CDW,452866.0,Chris Leahy,Chair/President/CEO,69.53942307692307,True,True,False,True,2023.0,2024.0,False,True,False,27.0
+CE,Celanese,887702.0,Lori Ryerkerk-Griffith,Chairman/President/CEO,40.74230769230769,True,False,False,False,2020.0,2024.0,False,False,False,0.0
+CEG,Constellation Energy,1075979.0,Joe Dominguez,President/CEO,24.5375,True,False,False,False,2022.0,2024.0,False,False,False,11.0
+CF,CF Industries,331091.0,David Kassie,Chairman/CEO,58.915625,True,False,True,False,2015.0,2015.0,False,True,False,6.0
+CFG,Citizens Financial Group,35815.0,Bruce van Saun,Chairman/CEO,45.46826923076924,True,True,True,False,2014.0,2024.0,False,False,False,1.0
+CHD,Church & Dwight,336620.0,Matthew Farrell,Chairman/President/CEO,34.675,True,True,False,False,2019.0,2024.0,False,True,False,2.0
+CHRW,CH Robinson,499582.0,Scott Anderson,Interim CEO,64.50961538461539,True,False,True,False,2023.0,2023.0,False,True,False,1.0
+CHTR,Charter Communications,1126145.0,Chris Winfrey,President/CEO,55.083333333333336,True,False,True,False,2022.0,2024.0,False,True,False,7.0
+CI,Cigna,486024.0,David Cordani,Chairman/President/CEO,36.993750000000006,True,True,True,False,2022.0,2024.0,False,True,False,1.0
+CINF,Cincinnati Financial,270963.0,Steve Johnston,Chairman/CEO,40.25,True,True,False,False,2022.0,2024.0,False,True,False,6.0
+CL,Colgate-Palmolive,1076189.0,Noel Wallace,Chairman/President/CEO,52.300000000000004,True,False,False,False,2020.0,2024.0,False,True,False,4.0
+CLX,Clorox,1768838.0,Linda Rendle,CEO,93.73076923076923,True,False,False,False,2020.0,2024.0,False,True,False,9.0
+CMA,Comerica,742333.0,Curtis Farmer,Chairman/President/CEO,44.46666666666667,True,False,True,False,2020.0,2024.0,False,True,False,4.0
+CMCSA,Comcast,35803.0,Brian Roberts,Chairman/CEO,85.97692307692309,True,False,False,False,2022.0,2024.0,False,True,False,1.0
+CME,CME Group,91452.0,The Hon. Terry Duffy,Chairman/CEO,34.3125,True,True,False,True,2016.0,2024.0,False,True,False,16.0
+CMG,Chipotle Mexican Grill,2610440.0,Pramod Jain,President/CEO,24.0296875,True,True,False,False,2022.0,2024.0,False,False,False,1.0
+CMI,Cummins,846022.0,Jennifer Rumsey,Chair/President/CEO,54.948076923076925,True,True,False,False,2023.0,2024.0,False,True,False,9.0
+CMS,CMS Energy,1124769.0,Garrick Rochow,President/CEO,36.74444444444445,True,False,True,False,2020.0,2024.0,False,True,False,16.0
+CNC,Centene Corporation,652335.0,Mark Selby,Chairman/President/CEO,42.71666666666667,True,False,False,False,2020.0,2023.0,False,False,False,10.0
+CNP,CenterPoint Energy,1484684.0,Jason Wells,President/CEO,48.37222222222223,True,True,False,False,2024.0,2024.0,False,True,False,3.0
+COF,Capital One,48786.0,Rich Fairbank,CEO,64.92211538461538,True,False,True,False,1994.0,1995.0,False,True,False,6.0
+COO,CooperCompanies,517326.0,Al White III,President/CEO,42.5,True,False,True,False,2018.0,2024.0,False,True,False,6.0
+COP,ConocoPhillips,486834.0,Ryan Lance,Chairman/CEO,31.558333333333334,True,False,False,False,2012.0,2024.0,False,True,False,10.0
+COR,Cencora,734927.0,Jay Chmelauskas,President/CEO,59.00064102564103,True,False,True,False,2020.0,2024.0,False,False,False,9.0
+COST,Costco,1138637.0,Ron Vachris,President/CEO,48.09615384615385,True,False,False,False,2024.0,2024.0,False,True,False,2.0
+CPB,Campbell Soup Company,1122227.0,Mark Clouse,President/CEO,15.4,True,False,False,False,2019.0,2024.0,False,False,False,2.0
+CPRT,Copart,12345.0,Co-CEO,CO-CEO,40.33,False,False,False,False,2022.0,2024.0,False,True,True,2.0
+CPT,Camden Property Trust,338840.0,Ric Campo,Chairman/CEO,35.47083333333333,True,False,False,False,1993.0,2024.0,False,False,False,0.0
+CRL,Charles River Laboratories,142122.0,Jim Foster,Chairman/CEO,64.7,True,True,False,True,2018.0,2018.0,False,True,False,3.0
+CRM,Salesforce,12345.0,Co-CEO,CO-CEO,80.11538461538461,True,True,False,False,2018.0,2020.0,False,True,True,8.0
+CSCO,Cisco,536628.0,Chuck Robbins,CEO,69.15384615384616,True,False,False,False,2015.0,2017.0,False,True,False,2.0
+CSGP,CoStar Group,201870.0,Andy Florance,President/CEO,92.13846153846154,True,False,False,False,1995.0,2024.0,False,True,False,6.0
+CSX,CSX,555321.0,Joe Hinrichs,President/CEO,61.465384615384615,True,False,True,False,2022.0,2024.0,False,False,False,1.0
+CTAS,Cintas,1314949.0,Todd Schneider,President/CEO,16.883333333333336,True,False,False,False,2021.0,2024.0,False,True,False,7.0
+CTLT,Catalent,1779146.0,Alessandro Maselli,President/CEO,43.0125,True,True,False,False,2022.0,2024.0,False,True,False,4.0
+CTRA,Coterra,332204.0,Tom Jorden,Chairman/President/CEO,41.91818181818182,True,True,False,False,2023.0,2024.0,False,False,False,3.0
+CTSH,Cognizant,1347317.0,Ravi Singisetti,CEO,44.7510101010101,True,True,True,False,2023.0,2024.0,False,False,False,3.0
+CTVA,Corteva,1079683.0,Chuck Magro,CEO,41.23214285714286,True,False,True,False,2021.0,2024.0,False,False,False,2.0
+CVS,CVS Health,486026.0,Karen Lynch,President/CEO,49.76666666666667,True,True,True,False,2021.0,2024.0,False,True,False,10.0
+CVX,Chevron Corporation,343163.0,Mike Wirth,Chairman/CEO,58.0,True,False,False,False,2018.0,2024.0,False,True,False,2.0
+CZR,Caesars Entertainment,1009473.0,Tony Rodio,CEO,33.55,True,False,True,False,2019.0,2020.0,False,False,False,10.0
+D,Dominion Energy,621249.0,Bob Blue,Chairman/President/CEO,31.19861111111111,True,False,True,True,2021.0,2024.0,False,True,False,0.0
+DAL,Delta Air Lines,333894.0,Ed Bastian,CEO,26.4375,True,True,False,False,2016.0,2024.0,False,True,False,6.0
+DAY,Dayforce,1353449.0,David Ossip,Chair/CEO,88.52692307692308,True,False,True,False,2023.0,2024.0,False,False,False,11.0
+DD,DuPont,34334.0,Ed Breen,CEO,50.40909090909091,True,False,False,False,2017.0,2019.0,False,True,False,
+DE,John Deere,2536950.0,Jeff Schellenberg,CEO,56.638461538461534,True,False,True,True,2021.0,2024.0,False,False,False,3.0
+DFS,Discover Financial,34950.0,Ron Rhodes,President/CEO,84.03076923076924,True,False,True,False,2024.0,2024.0,False,False,False,1.0
+DG,Dollar General,1530332.0,Jeff Owen,CEO,59.73076923076923,True,False,True,False,2022.0,2023.0,False,True,False,16.0
+DGX,Quest Diagnostics,1305371.0,Jim Davis,Chairman/President/CEO,89.8846153846154,True,True,False,False,2023.0,2024.0,False,True,False,4.0
+DHI,DR Horton,1488221.0,Paul Romanowski,President/CEO,40.33,False,False,False,False,2023.0,2024.0,False,True,False,24.0
+DHR,Danaher Corporation,1382445.0,Rainer Blair,President/CEO,60.73461538461538,True,True,False,False,2020.0,2024.0,False,True,False,1.0
+DIS,Walt Disney,16457.0,Bob Iger,CEO,34.4,True,False,False,False,2022.0,2024.0,False,True,False,3.0
+DLR,Digital Realty,1532156.0,Andy Power,President/CEO,44.46666666666667,True,False,False,False,2023.0,2024.0,False,True,False,11.0
+DLTR,Dollar Tree,47541.0,Rick Dreiling,Chairman (Executive)/CEO,17.925,True,False,False,False,2023.0,2024.0,False,True,False,2.0
+DOV,Dover Corporation,480780.0,Rich Tobin,President/CEO,48.53383190883191,True,False,True,False,2018.0,2024.0,False,True,False,3.0
+DOW,Dow Inc.,890775.0,Jim Fitterling,CEO,44.83125,True,False,False,False,2019.0,2020.0,False,True,False,1.0
+DPZ,Domino's,652203.0,Russell Weiner,CEO,79.63846153846154,True,False,True,False,2022.0,2024.0,False,True,False,1.0
+DRI,Darden Restaurants,1595189.0,Rick Cardenas,President/CEO,34.65833333333334,True,False,True,False,2022.0,2024.0,False,True,False,4.0
+DTE,DTE Energy,534436.0,Jerry Norcia,Chairman/CEO,30.764285714285712,True,False,False,False,2022.0,2024.0,False,True,False,1.0
+DUK,Duke Energy,204347.0,Lynn Good,Chairman/President/CEO,16.883333333333336,True,False,False,False,2016.0,2024.0,False,True,False,16.0
+DVA,DaVita Inc.,655130.0,Javier Rodriguez,CEO,59.200641025641026,True,False,True,False,2019.0,2024.0,False,True,False,7.0
+DVN,Devon Energy,551643.0,Rick Muncrief,President/CEO,32.04375,True,False,False,False,2021.0,2024.0,False,False,False,6.0
+DXCM,Dexcom,346517.0,Kevin Sayer,Chairman/President/CEO,23.599999999999998,True,True,False,False,2018.0,2024.0,False,True,False,9.0
+EA,Electronic Arts,1207036.0,Andrew Wilson,CEO,40.33,False,False,False,False,2013.0,2021.0,False,True,False,6.0
+EBAY,eBay,1079366.0,Jamie Iannone,President/CEO,63.956730769230774,True,False,True,False,2020.0,2024.0,False,True,False,2.0
+ECL,Ecolab,988324.0,Christophe Beck,Chairman/CEO,17.925,False,False,False,False,2022.0,2024.0,False,True,False,11.0
+ED,Consolidated Edison,1337256.0,Tim Cawley,Chairman/President/CEO,55.0923076923077,True,False,True,False,2022.0,2024.0,False,True,False,6.0
+EFX,Equifax,1385042.0,Marc Rossiter,President/CEO,35.775000000000006,True,False,False,False,2019.0,2024.0,False,True,False,1.0
+EG,Everest Re,655850.0,Juan Andrade,President/CEO,70.94935897435897,True,True,False,False,2020.0,2024.0,False,True,False,3.0
+EIX,Edison International,57976.0,Ted Craver Jr,Chairman/CEO,65.46153846153847,True,False,True,False,2016.0,2016.0,False,True,False,1.0
+EL,Estée Lauder Companies (The),590109.0,Fabrizio Freda,President/CEO,17.925,True,False,False,False,2009.0,2024.0,False,True,False,2.0
+ELV,Elevance Health,184069.0,Gail Boudreaux,President/CEO,72.36538461538461,True,False,True,False,2017.0,2024.0,False,True,False,2.0
+EMN,Eastman Chemical Company,534777.0,Mark Costa,Chair/CEO,91.61923076923077,True,False,True,False,2014.0,2024.0,False,True,False,2.0
+EMR,Emerson Electric,2042096.0,Lal Karsanbhai,CEO,76.34230769230768,True,False,True,False,2021.0,2021.0,False,True,False,13.0
+ENPH,Enphase,1197971.0,Badri Kothandaraman,President/CEO,49.930897435897435,True,True,False,False,2017.0,2024.0,False,True,False,9.0
+EOG,EOG Resources,1530364.0,Ezra Yacob,CEO,34.89147727272727,True,True,True,False,2021.0,2022.0,False,True,False,10.0
+EPAM,EPAM Systems,1059890.0,Arkadiy Dobkin,Chairman/President/CEO,24.75,False,True,False,False,2012.0,2024.0,False,False,False,6.0
+EQIX,Equinix,202552.0,Peter Van Camp,CEO,48.09615384615385,True,False,False,False,2000.0,2005.0,False,False,False,1.0
+EQR,Equity Residential,207481.0,David Neithercut,CEO,52.16634615384615,True,False,True,False,2018.0,2018.0,False,True,False,6.0
+EQT,EQT,1372866.0,Toby Rice,President/CEO,34.4,True,False,False,False,2019.0,2024.0,False,False,False,2.0
+ES,Eversource,206006.0,Joe Nolan Jr,Chairman/President/CEO,48.09615384615385,True,True,False,False,2022.0,2024.0,False,True,False,10.0
+ESS,Essex Property Trust,1117043.0,Angela Kleiman,President/CEO,80.92307692307692,True,False,True,False,2023.0,2024.0,False,True,False,15.0
+ETN,Eaton Corporation,57522.0,Craig Arnold,Chairman/CEO,31.378124999999997,True,False,True,False,2016.0,2024.0,False,True,False,4.0
+ETR,Entergy,655507.0,Fiore Aliperti,Chairman/Interim President/CEO,54.8423076923077,True,False,False,False,2021.0,2023.0,False,True,False,2.0
+ETSY,Etsy,765386.0,Josh Silverman,President/CEO,51.99519230769231,True,False,True,False,2017.0,2024.0,False,True,False,3.0
+EVRG,Evergy,201799.0,David Campbell,President/CEO,71.23557692307692,True,True,False,True,2021.0,2024.0,False,False,False,10.0
+EW,Edwards Lifesciences,482389.0,Nick DeMare,CFO/Secretary/Interim CEO,48.87403846153847,True,True,False,False,2019.0,2023.0,False,True,False,0.0
+EXC,Exelon,456993.0,Calvin Butler Jr,President/CEO,47.595571095571096,True,False,False,True,2022.0,2024.0,False,True,False,31.0
+EXPD,Expeditors International,452655.0,Jeff Musser,President/CEO,17.925,False,True,False,False,2014.0,2024.0,False,True,False,2.0
+EXPE,Expedia Group,484778.0,Peter Kern,Vice Chairman/CEO,85.97692307692309,True,False,False,False,2020.0,2024.0,False,True,False,2.0
+EXR,Extra Space Storage,375394.0,Joe Margolis,CEO,90.06923076923076,True,False,False,True,2017.0,2024.0,False,True,False,2.0
+F,Ford Motor Company,554044.0,Jim Farley Jr,President/CEO,70.93076923076923,True,False,True,False,2020.0,2022.0,False,True,False,1.0
+FANG,Diamondback Energy,1277021.0,Travis Stice,CEO,35.112500000000004,True,True,False,False,2017.0,2022.0,False,False,False,1.0
+FAST,Fastenal,70422.0,Dan Florness,President/CEO,67.0,True,False,False,False,2016.0,2024.0,False,True,False,4.0
+FCX,Freeport-McMoRan,206065.0,Richard Adkerson,CEO,44.07644230769231,True,True,True,False,2007.0,2008.0,False,True,False,6.0
+FDS,FactSet,1370755.0,Phil Snow,CEO,54.1900641025641,True,True,False,False,2015.0,2024.0,False,True,False,10.0
+FDX,FedEx,547132.0,Raj Subramaniam,President/CEO,47.57611111111111,True,True,True,False,2022.0,2024.0,False,True,False,2.0
+FE,FirstEnergy,594904.0,Brian Tierney,President/CEO,68.55576923076923,True,False,True,False,2023.0,2024.0,False,False,False,2.0
+FFIV,"F5, Inc.",601275.0,Francois Locoh-Donou,President/CEO,56.07480769230769,True,True,True,False,2017.0,2024.0,False,False,False,5.0
+FI,Fiserv,534932.0,Frank Bisignano,Chairman/President/CEO,53.4673076923077,True,False,False,True,2022.0,2024.0,False,True,False,6.0
+FICO,Fair Isaac,183300.0,Will Lansing,President/CEO,50.239903846153844,True,False,False,True,2012.0,2024.0,False,True,False,1.0
+FIS,Fidelity National Information Services,1717506.0,Stephanie Ferris,President/CEO,25.91666666666667,True,True,False,False,2022.0,2024.0,False,True,False,1.0
+FITB,Fifth Third Bank,1608426.0,Tim Spence,Chairman/President/CEO,16.883333333333336,True,False,False,False,2024.0,2024.0,False,True,False,1.0
+FLT,Fleetcor,2588081.0,Steve Magirias,CEO,,True,False,True,False,2022.0,2024.0,False,False,False,1.0
+FMC,FMC Corporation,534321.0,Mark Douglas,President/CEO,40.33,False,False,False,False,2020.0,2024.0,False,True,False,1.0
+FOX,Fox Corporation (Class B),15156.0,Lachlan Murdoch,Chair (Executive)/CEO,92.13846153846154,True,False,False,False,2019.0,2024.0,False,True,False,1.0
+FOXA,Fox Corporation (Class A),15156.0,Lachlan Murdoch,Chair (Executive)/CEO,92.13846153846154,True,False,False,False,2019.0,2024.0,False,False,False,2.0
+FRT,Federal Realty,332472.0,Don Wood,CEO,30.040625,True,True,False,False,2021.0,2024.0,False,True,False,15.0
+FSLR,First Solar,488928.0,Mark Widmar,CEO,45.23974358974359,True,True,True,False,2016.0,2024.0,False,True,False,2.0
+FTNT,Fortinet,1055310.0,Ken Xie,Chairman/CEO,75.87594405594406,True,True,False,False,2013.0,2024.0,False,False,False,15.0
+FTV,Fortive,372492.0,Jim Lico,President/CEO,81.84230769230768,True,True,False,False,2016.0,2024.0,False,False,False,4.0
+GD,General Dynamics,45561.0,Phebe Novakovic,Chairman/CEO,60.18846153846154,True,False,True,False,2013.0,2024.0,False,True,False,5.0
+GE,General Electric,36907.0,Larry Culp Jr,Chairman/CEO,70.42307692307692,True,False,True,False,2018.0,2024.0,False,True,False,1.0
+GEHC,GE HealthCare,321734.0,Pete Arduini,President/CEO,49.42403846153846,True,False,True,False,2023.0,2024.0,False,False,False,3.0
+GEN,Gen Digital,59002.0,Rick Hill,Interim President/Interim CEO,42.43958333333333,True,False,True,False,2019.0,2019.0,False,True,False,3.0
+GILD,Gilead Sciences,452898.0,Gregg Alton,Interim CEO/Chief Patient Officer,91.78846153846153,True,False,False,True,2019.0,2019.0,False,True,False,1.0
+GIS,General Mills,452898.0,Gregg Alton,Interim CEO/Chief Patient Officer,91.78846153846153,True,False,False,True,2019.0,2019.0,False,True,False,4.0
+GL,Globe Life,12345.0,Co-CEO,CO-CEO,34.95,False,True,False,False,2012.0,2014.0,False,True,True,2.0
+GLW,Corning Inc.,49961.0,Wendell Weeks,Chairman/CEO,61.84350961538461,True,False,True,False,2007.0,2024.0,False,True,False,0.0
+GM,General Motors,892349.0,Mary Barra,CEO,26.85,True,False,True,False,2014.0,2016.0,False,True,False,0.0
+GNRC,Generac,1047333.0,Aaron Jagdfeld,Chairman/President/CEO,67.0,True,False,False,False,2016.0,2024.0,False,False,False,4.0
+GOOG,Alphabet Inc. (Class C),887679.0,Sundar Pichai,CEO,69.25871794871794,True,True,True,False,2019.0,2024.0,False,True,False,10.0
+GOOGL,Alphabet Inc. (Class A),887679.0,Sundar Pichai,CEO,69.25871794871794,True,True,True,False,2019.0,2024.0,False,True,False,1.0
+GPC,Genuine Parts Company,2595423.0,Rob Cameron,MD/Group CEO,40.33,False,False,False,False,2022.0,2024.0,False,True,False,6.0
+GPN,Global Payments,881629.0,Cameron Bready,President/CEO,26.4375,True,True,False,False,2023.0,2024.0,False,True,False,12.0
+GRMN,Garmin,441710.0,Cliff Pemble,President/CEO,44.83125,True,False,False,False,2013.0,2024.0,False,True,False,3.0
+GS,Goldman Sachs,795984.0,David Solomon,CEO,34.4,True,False,False,False,2018.0,2019.0,False,True,False,3.0
+GWW,W. W. Grainger,881638.0,Donald Macpherson,CEO,87.49615384615385,True,False,True,False,2016.0,2017.0,False,True,False,1.0
+HAL,Halliburton,1269010.0,Jeff Miller,Chairman/President/CEO,35.05833333333334,True,False,True,False,2019.0,2024.0,False,True,False,4.0
+HAS,Hasbro,2463090.0,Chris Cocks,CEO,40.33,False,False,False,False,2022.0,2024.0,False,True,False,0.0
+HBAN,Huntington Bancshares,200105.0,Steve Steinour,Chairman/President/CEO,35.087500000000006,True,False,False,False,2009.0,2024.0,False,False,False,4.0
+HCA,HCA Healthcare,35175.0,Sam Hazen,CEO,36.1475,True,False,True,False,2019.0,2024.0,False,True,False,17.0
+HD,Home Depot (The),894119.0,Ted Decker,Chairman/President/CEO,62.32587412587412,True,False,True,False,2022.0,2024.0,False,True,False,2.0
+HES,Hess Corporation,64947.0,John Hess,CEO,93.73076923076923,True,False,True,False,2013.0,2024.0,False,True,False,0.0
+HIG,Hartford (The),1073631.0,Chris Swift,CEO,31.637500000000003,True,True,False,False,2014.0,2015.0,False,True,False,2.0
+HII,Huntington Ingalls Industries,1261254.0,Christopher Kastner,President/CEO,60.91089743589743,True,True,True,False,2022.0,2024.0,False,True,False,4.0
+HLT,Hilton Worldwide,180239.0,Chris Nassetta,President/CEO,60.11947115384615,True,False,False,False,2013.0,2024.0,False,False,False,10.0
+HOLX,Hologic,41481.0,Steve MacMillan,Chairman/President/CEO,64.06538461538462,True,True,False,False,2015.0,2024.0,False,False,False,6.0
+HON,Honeywell,1396476.0,Vimal Kapur,CEO,62.03205128205128,True,True,False,False,2023.0,2024.0,False,True,False,2.0
+HPE,Hewlett Packard Enterprise,1192124.0,Antonio Neri,President/CEO,16.11642857142857,True,False,False,False,2018.0,2024.0,False,True,False,0.0
+HPQ,HP Inc.,607415.0,Enrique Lores,President/CEO,26.196875,True,False,True,False,2019.0,2024.0,False,True,False,
+HRL,Hormel Foods,806078.0,Jim Snee,Chairman/President/CEO,46.724999999999994,True,False,True,False,2017.0,2024.0,False,True,False,3.0
+HSIC,Henry Schein,85377.0,Stan Bergman,Chairman/CEO,35.6015625,True,True,False,False,2005.0,2024.0,False,False,False,4.0
+HST,Host Hotels & Resorts,205949.0,Jim Risoleo,President/CEO,44.83125,True,False,False,True,2017.0,2024.0,False,True,False,8.0
+HSY,Hershey's,485170.0,Michele Buck,Chairman/President/CEO,17.94375,True,False,True,False,2019.0,2024.0,False,True,False,1.0
+HUBB,Hubbell Incorporated,1368157.0,Gerben Bakker,Chairman/President/CEO,28.816666666666666,True,True,True,False,2021.0,2024.0,False,True,False,2.0
+HUM,Humana,272234.0,Bruce Broussard,CEO,40.67291666666667,True,True,True,False,2024.0,2024.0,False,True,False,8.0
+HWM,Howmet Aerospace,335115.0,John Plant,Chairman/CEO,55.715384615384615,True,False,False,False,2019.0,2020.0,False,True,False,3.0
+IBM,IBM,1125128.0,Arvind Krishna,CEO,57.95923076923077,True,True,False,True,2020.0,2021.0,False,True,False,10.0
+ICE,Intercontinental Exchange,1194094.0,Joey St-Aubin,President/CEO,44.89583333333333,True,False,False,False,2009.0,2024.0,False,True,False,7.0
+IDXX,Idexx Laboratories,1254756.0,Jonathan Mazelsky,Interim President/Interim CEO,72.32852564102565,True,False,True,False,2019.0,2019.0,False,True,False,3.0
+IEX,IDEX Corporation,1074210.0,Andy Silvernail,Chairman/CEO,76.02692307692308,True,False,True,False,2020.0,2020.0,False,True,False,1.0
+IFF,International Flavors & Fragrances,376255.0,Jon Fyrwald,CEO,68.83846153846153,True,True,False,False,2024.0,2024.0,False,False,False,0.0
+ILMN,Illumina,553278.0,Chuck Dadswell,Interim CEO/Senior VP/General Counsel/Secretary,31.110416666666662,True,False,False,True,2023.0,2023.0,False,True,False,2.0
+INCY,Incyte,1249099.0,Hervé Hoppenot,Chairman/CEO,43.5,False,True,False,False,2023.0,2024.0,False,False,False,3.0
+INTC,Intel,486395.0,Doctor Pat Gelsinger,CEO,52.943910256410255,True,True,False,False,2021.0,2024.0,False,True,False,2.0
+INTU,Intuit,556870.0,Sasan Goodarzi,President/CEO,57.08653846153846,True,False,True,False,2019.0,2024.0,False,True,False,1.0
+INVH,Invitation Homes,1862251.0,Dallas Tanner,CEO,53.861538461538466,True,True,False,False,2023.0,2024.0,False,True,False,1.0
+IP,International Paper,2589083.0,Alen Silverrstieen,Chairman/President/CEO,40.33,False,False,False,False,2021.0,2024.0,False,False,False,1.0
+IPG,Interpublic Group of Companies (The),62667.0,Philippe Krakowsky,CEO,93.73076923076923,True,False,False,False,2021.0,2024.0,False,True,False,8.0
+IQV,IQVIA,33049.0,Ari Bousbib,Chairman/President/CEO,57.35384615384615,True,True,True,False,2016.0,2024.0,False,False,False,2.0
+IR,Ingersoll Rand,777885.0,Dave Regnery,Chair/President/CEO,55.43966346153846,True,False,True,False,2022.0,2024.0,False,True,False,3.0
+IRM,Iron Mountain,1188382.0,Bill Meaney,President/CEO,66.86442307692307,True,True,True,False,2013.0,2024.0,False,False,False,0.0
+ISRG,Intuitive Surgical,324511.0,Doctor Gary Guthart,CEO,92.92307692307692,True,True,False,True,2023.0,2024.0,False,True,False,1.0
+IT,Gartner,27371.0,Andy McIver,President/CEO,40.25480769230769,True,True,False,False,2016.0,2020.0,False,False,False,11.0
+ITW,Illinois Tool Works,1091650.0,Chris O'Herlihy,President/CEO,47.28581730769231,True,True,False,False,2024.0,2024.0,False,True,False,11.0
+IVZ,Invesco,1631695.0,Andrew Schlossberg,President/CEO,62.434615384615384,True,False,True,False,2023.0,2024.0,False,True,False,0.0
+J,Jacobs Solutions,1068311.0,Bob Pragada,CEO,56.48461538461538,True,True,False,False,2023.0,2024.0,False,True,False,7.0
+JBHT,J.B. Hunt,497950.0,John Roberts III,CEO,28.6375,True,False,False,False,2022.0,2024.0,False,True,False,0.0
+JBL,Jabil,1996477.0,Kenny Wilson,CEO,76.24615384615385,True,False,True,False,2023.0,2024.0,False,True,False,8.0
+JCI,Johnson Controls,833894.0,George Oliver,CEO,33.410000000000004,True,False,False,False,2012.0,2016.0,False,True,False,18.0
+JKHY,Jack Henry & Associates,836736.0,Dave Foss,Chair/CEO,66.3,True,False,False,False,2022.0,2024.0,False,True,False,16.0
+JNJ,Johnson & Johnson,879247.0,Joaquin Duato,CEO,43.09791666666666,True,True,True,False,2022.0,2023.0,False,True,False,0.0
+JNPR,Juniper Networks,533754.0,Doctor Shaygan Kheradpir,CEO,75.78461538461539,True,True,False,True,2014.0,2014.0,False,True,False,7.0
+JPM,JPMorgan Chase,33908.0,Jamie Dimon,Chairman/CEO,75.57692307692307,True,False,True,False,2018.0,2024.0,False,True,False,19.0
+K,Kellanova,455061.0,Steve Cahillane,Chairman/President/CEO,87.32692307692307,True,False,True,False,2018.0,2024.0,False,False,False,4.0
+KDP,Keurig Dr Pepper,989294.0,Bob Gamgort Jr,Chairman (Executive)/CEO,79.94102564102565,True,False,True,False,2022.0,2024.0,False,True,False,5.0
+KEY,KeyCorp,1205277.0,Curtis Setoguchi,President/CEO,26.815625,True,True,False,False,2021.0,2024.0,False,True,False,2.0
+KEYS,Keysight,1915693.0,Satish Dhanasekaran,President/CEO,28.80580357142857,True,True,False,False,2022.0,2024.0,False,True,False,6.0
+KHC,Kraft Heinz,2161452.0,Carlos Abrams-Rivera,CEO,49.020192307692305,True,False,True,False,2024.0,2024.0,False,True,False,2.0
+KIM,Kimco Realty,888666.0,Conor Flynn,CEO,87.92307692307692,True,True,False,False,2017.0,2024.0,False,True,False,3.0
+KLAC,KLA Corporation,51071.0,Rick Wallace,CEO,63.79639423076923,True,True,False,False,2006.0,2008.0,False,True,False,1.0
+KMB,Kimberly-Clark,890948.0,Mike Hsu,CEO,49.020192307692305,True,False,True,False,2019.0,2020.0,False,True,False,5.0
+KMI,Kinder Morgan,480591.0,Kim Dang,CEO,66.61153846153846,True,False,True,False,2023.0,2024.0,False,True,False,3.0
+KMX,CarMax,207627.0,Tom Folliard,CEO,27.115,True,False,False,False,2016.0,2016.0,False,True,False,1.0
+KO,Coca-Cola Company (The),877797.0,James Quincey,CEO,52.107692307692304,True,False,False,False,2019.0,2019.0,False,True,False,28.0
+KR,Kroger,35937.0,William McMullen,CEO,38.83125,True,True,False,False,2014.0,2015.0,False,True,False,1.0
+L,Loews Corporation,1109670.0,Per Bank,President/CEO,42.04375,True,False,False,False,2023.0,2024.0,False,False,False,2.0
+LDOS,Leidos,1316021.0,Tom Bell,CEO,29.141875,True,False,True,False,2023.0,2024.0,False,False,False,2.0
+LEN,Lennar,12345.0,Co-CEO,CO-CEO,74.40705128205128,True,False,False,True,2023.0,2024.0,False,True,True,6.0
+LH,LabCorp,495421.0,Adam Schechter,Chairman/President/CEO,18.86,True,False,False,False,2020.0,2024.0,False,True,False,11.0
+LHX,L3Harris,34826.0,Chris Kubasik,Chair/CEO,57.1301923076923,True,True,False,False,2022.0,2024.0,False,True,False,0.0
+LIN,Linde plc,882250.0,Sanjiv Lamba,CEO,35.034375,True,True,False,False,2022.0,2024.0,False,True,False,0.0
+LKQ,LKQ Corporation,1523271.0,Nick Zarcone,President/CEO,30.81875,True,False,True,False,2017.0,2024.0,False,True,False,14.0
+LLY,Eli Lilly and Company,1068880.0,Dave Ricks,Chair/President/CEO,33.417307692307695,True,False,True,False,2017.0,2024.0,False,True,False,0.0
+LMT,Lockheed Martin,183686.0,Jim Taiclet Jr,Chairman/President/CEO,55.519230769230774,True,True,False,False,2021.0,2024.0,False,True,False,6.0
+LNT,Alliant Energy,1120761.0,Lisa Barton,President/CEO,53.523862179487175,True,False,False,True,2024.0,2024.0,False,True,False,7.0
+LOW,Lowe's,489833.0,Marvin Ellison,Chairman/President/CEO,45.5025641025641,True,False,True,False,2021.0,2024.0,False,False,False,7.0
+LRCX,Lam Research,452542.0,Martin Anstice,CEO,35.66875,False,True,False,False,2018.0,2018.0,False,True,False,5.0
+LULU,Lululemon Athletica,1080465.0,Calvin McDonald,CEO,64.25528846153847,True,False,True,False,2018.0,2024.0,False,False,False,12.0
+LUV,Southwest Airlines,535617.0,Bob Jordan,CEO,52.300000000000004,True,False,True,False,2022.0,2023.0,False,True,False,9.0
+LVS,Las Vegas Sands,373525.0,Rob Goldstein,Chairman/CEO/Treasurer,49.55504807692307,True,False,False,True,2021.0,2024.0,False,True,False,1.0
+LW,Lamb Weston,1595178.0,Tom Werner,President/CEO,26.85,True,False,True,False,2016.0,2024.0,False,False,False,1.0
+LYB,LyondellBasell,1590430.0,Peter Vanacker,CEO,44.83125,True,True,True,False,2022.0,2024.0,False,True,False,1.0
+LYV,Live Nation Entertainment,551218.0,Bryan Perez,Group CEO,87.1767094017094,True,False,True,True,2007.0,2008.0,False,True,False,4.0
+MA,Mastercard,1630252.0,Michael Miebach,President/CEO,70.61121794871795,True,True,True,False,2021.0,2024.0,False,True,False,2.0
+MAA,Mid-America Apartment Communities,1126530.0,Longbo Chen,CEO,57.524358974358975,False,True,False,True,2012.0,2015.0,False,True,False,0.0
+MAR,Marriott International,653581.0,Tony Capuano Jr,CEO,83.4923076923077,True,False,False,False,2021.0,2023.0,False,True,False,1.0
+MAS,Masco,1135450.0,Keith Allman,President/CEO,50.34326923076923,True,False,True,False,2014.0,2024.0,False,True,False,1.0
+MCD,McDonald's,1381393.0,Chris Kempczinski,President/CEO,87.9076923076923,True,False,True,False,2019.0,2024.0,False,True,False,19.0
+MCHP,Microchip Technology,61667.0,Ganesh Moorthy,President/CEO,47.78958333333333,True,False,True,False,2021.0,2024.0,False,True,False,0.0
+MCK,McKesson,509859.0,Doctor Brian Tyler,CEO,77.45769230769231,True,True,False,True,2019.0,2024.0,False,True,False,2.0
+MCO,Moody's Corporation,885394.0,Rob Fauber,President/CEO,55.289903846153855,True,False,True,False,2021.0,2024.0,False,True,False,0.0
+MDLZ,Mondelez International,640369.0,Doctor Dirk van de Put,CEO,48.22244318181818,True,False,True,True,2017.0,2018.0,False,False,False,3.0
+MDT,Medtronic,1131982.0,Geoff Martha,CEO,44.83125,True,False,False,False,2020.0,2020.0,False,True,False,2.0
+MET,MetLife,1135745.0,Michel Khalaf,President/CEO,34.08819444444444,True,False,True,False,2019.0,2024.0,False,True,False,1.0
+META,Meta Platforms,2127717.0,Mark Goliger,CEO,36.7625,True,False,True,False,2017.0,2020.0,False,False,False,1.0
+MGM,MGM Resorts,58736.0,Bill Hornbuckle IV,President/Acting CEO,32.17,True,False,False,False,2020.0,2020.0,False,True,False,11.0
+MHK,Mohawk Industries,64542.0,Jeff Lorberbaum,Chairman/CEO,43.128571428571426,True,False,False,False,2009.0,2024.0,False,True,False,1.0
+MKC,McCormick & Company,895879.0,Brendan Foley,President/CEO,16.883333333333336,True,False,False,False,2023.0,2024.0,False,True,False,1.0
+MKTX,MarketAxess,483563.0,Chris Concannon,CEO,35.8625,True,False,True,True,2023.0,2024.0,False,True,False,6.0
+MLM,Martin Marietta Materials,2354212.0,Mark Trevisiol,Chairman/President/CEO,51.7,False,False,False,False,2022.0,2024.0,False,False,False,0.0
+MMC,Marsh McLennan,1124832.0,John Doyle,President/CEO,43.32272727272727,True,False,False,False,2023.0,2024.0,False,True,False,4.0
+MMM,3M,1310783.0,Mike Roman,CEO,65.88076923076923,True,True,False,False,2018.0,2019.0,False,True,False,0.0
+MNST,Monster Beverage,12345.0,Co-CEO,CO-CEO,44.40625,False,True,False,False,2021.0,2024.0,False,True,True,5.0
+MO,Altria,893105.0,Billy Gifford Jr,CEO,40.65,True,False,False,False,2020.0,2024.0,False,True,False,2.0
+MOH,Molina Healthcare,487039.0,Joseph Zubretsky,President/CEO,29.5375,True,False,False,False,2017.0,2024.0,False,False,False,5.0
+MOS,Mosaic Company (The),1659364.0,Bruce Bodine Jr,President/CEO,68.00320512820512,True,False,True,False,2024.0,2024.0,False,True,False,2.0
+MPC,Marathon Petroleum,485569.0,Mike Hennigan,CEO,38.66111111111111,True,False,False,False,2024.0,2024.0,False,True,False,2.0
+MPWR,Monolithic Power Systems,447596.0,Michael Hsing,Chairman/President/CEO,55.083333333333336,True,False,False,False,2010.0,2024.0,False,False,False,8.0
+MRK,Merck & Co.,485800.0,Rob Davis,Chairman/President/CEO,59.57649572649572,True,False,True,True,2022.0,2024.0,False,True,False,4.0
+MRNA,Moderna,507530.0,Stéphane Bancel,CEO,62.776923076923076,True,True,True,False,2018.0,2024.0,False,False,False,7.0
+MRO,Marathon Oil,1314672.0,Lee Tillman,Chairman/President/CEO,39.609375,True,False,False,True,2019.0,2024.0,False,False,False,0.0
+MS,Morgan Stanley,881342.0,Ted Pick,CEO,64.06538461538462,True,False,True,False,2024.0,2024.0,False,True,False,11.0
+MSCI,MSCI,598481.0,Henry Fernandez,Chairman/CEO,61.06858974358975,True,False,True,True,2017.0,2024.0,False,False,False,4.0
+MSFT,Microsoft,499383.0,Satya Nadella,CEO,28.0625,True,True,True,False,2014.0,2021.0,False,True,False,3.0
+MSI,Motorola Solutions,1060498.0,Stephen Liptrap,President/CEO,69.28100961538462,True,True,False,False,2017.0,2022.0,False,True,False,0.0
+MTB,M&T Bank,484476.0,René Jones,Chairman/CEO,46.2292735042735,True,True,True,False,2017.0,2024.0,False,True,False,1.0
+MTCH,Match Group,1729772.0,Bernard Kim,CEO,48.09615384615385,True,False,False,False,2022.0,2024.0,False,False,False,1.0
+MTD,Mettler Toledo,1480132.0,Patrick Kaltenbach,CEO Designate,17.925,False,False,False,False,2021.0,2021.0,False,False,False,26.0
+MU,Micron Technology,205405.0,Sanjay Mehrotra,President/CEO,71.56137820512821,True,True,False,False,2017.0,2024.0,False,False,False,5.0
+NCLH,Norwegian Cruise Line Holdings,1517913.0,Harry Sommer,President/CEO,32.278125,True,False,True,False,2023.0,2024.0,False,True,False,1.0
+NDAQ,"Nasdaq, Inc.",483505.0,Adena Friedman,Chair/CEO,47.065384615384616,True,False,True,False,2023.0,2024.0,False,True,False,1.0
+NDSN,Nordson Corporation,1086068.0,Naga Nagarajan,President/CEO,35.875,True,True,True,True,2019.0,2024.0,False,False,False,1.0
+NEE,NextEra Energy,1492494.0,John Ketchum,Chairman/President/CEO,59.97908653846154,True,True,False,True,2022.0,2024.0,False,True,False,2.0
+NEM,Newmont,1378869.0,Tom Palmer,President/CEO,61.48461538461538,True,True,False,False,2019.0,2024.0,False,True,False,5.0
+NFLX,Netflix,12345.0,Co-CEO,CO-CEO,64.23461538461538,True,True,False,False,2020.0,2023.0,False,True,True,0.0
+NI,NiSource,486687.0,Lloyd Yates,President/CEO,71.12319711538461,True,True,True,False,2022.0,2024.0,False,True,False,1.0
+NKE,"Nike, Inc.",103257.0,John Donahoe II,President/CEO,47.049038461538466,True,False,True,False,2020.0,2024.0,False,True,False,0.0
+NOC,Northrop Grumman,1255302.0,Kathy Warden,Chair/President/CEO,32.38269230769231,True,False,True,False,2019.0,2024.0,False,True,False,1.0
+NOW,ServiceNow,206474.0,Bill McDermott,Chairman/CEO,67.10000000000001,True,False,True,False,2022.0,2024.0,False,False,False,1.0
+NRG,NRG Energy,340609.0,Doctor Larry Coben,Chairman/Interim President/Interim CEO,88.78076923076924,True,True,False,True,2023.0,2024.0,False,True,False,3.0
+NSC,Norfolk Southern Railway,1337654.0,Alan Shaw,President/CEO,42.5,True,False,True,False,2022.0,2024.0,False,True,False,0.0
+NTAP,NetApp,1448606.0,George Kurian,CEO,63.956730769230774,True,False,True,False,2015.0,2024.0,False,True,False,4.0
+NTRS,Northern Trust,2609954.0,Kholoud Al Dosari,Country CEO,26.794642857142858,True,False,False,False,2022.0,2024.0,False,False,False,0.0
+NUE,Nucor,1390509.0,Leon Topalian,Chair/President/CEO,40.33,False,False,False,False,2022.0,2024.0,False,True,False,4.0
+NVDA,Nvidia,83377.0,Jensen Huang,President/CEO,65.03044871794872,True,True,False,False,1993.0,2024.0,False,False,False,7.0
+NVR,"NVR, Inc.",1205565.0,Eugene Bredow,President/CEO,30.5375,True,False,False,False,2022.0,2024.0,False,True,False,1.0
+NWS,News Corp (Class B),1282519.0,Robert Thomson,CEO,37.1125,True,False,False,False,2013.0,2024.0,False,False,False,3.0
+NWSA,News Corp (Class A),1282519.0,Robert Thomson,CEO,37.1125,True,False,False,False,2013.0,2024.0,False,False,False,5.0
+NXPI,NXP Semiconductors,1096978.0,Kurt Sievers,President/CEO,35.690625,True,True,True,False,2020.0,2024.0,False,True,False,2.0
+O,Realty Income,1128307.0,Sumit Roy,President/CEO,35.8625,True,True,True,False,2018.0,2024.0,False,True,False,54.0
+ODFL,Old Dominion,896204.0,Marty Freeman,President/CEO,40.33,False,False,False,False,2023.0,2024.0,False,True,False,0.0
+OKE,ONEOK,620135.0,Pierce Norton II,President/CEO,65.29038461538461,True,True,False,False,2021.0,2024.0,False,True,False,7.0
+OMC,Omnicom Group,35509.0,John Wren III,Chairman/CEO,17.925,True,False,True,False,2018.0,2024.0,False,True,False,8.0
+ON,ON Semiconductor,1269387.0,Hassane El-Khoury,President/CEO,21.740625,True,True,False,False,2020.0,2024.0,False,False,False,15.0
+ORCL,Oracle Corporation,33503.0,Safra Catz,CEO,85.97692307692309,True,False,False,True,2019.0,2024.0,False,True,False,2.0
+ORLY,O'Reilly Auto Parts,884303.0,Brad Beckham,CEO,40.33,False,False,False,False,2024.0,2024.0,False,True,False,4.0
+OTIS,Otis Worldwide,1663147.0,Judy Marks,Chair/President/CEO,29.95625,True,False,False,False,2022.0,2024.0,False,False,False,16.0
+OXY,Occidental Petroleum,1304382.0,Vicki Hollub,President/CEO,36.85,True,False,False,False,2016.0,2024.0,False,True,False,1.0
+PANW,Palo Alto Networks,541851.0,Nikesh Arora,Chairman/CEO,55.53221153846154,True,True,True,True,2018.0,2024.0,False,False,False,1.0
+PARA,Paramount Global,23537.0,Bob Bakish,President/CEO,61.09134615384615,True,False,True,False,2019.0,2024.0,False,False,False,4.0
+PAYC,Paycom,12345.0,Co-CEO,CO-CEO,17.925,True,False,False,False,2024.0,2024.0,False,False,True,10.0
+PAYX,Paychex,605579.0,John Gibson Jr,President/CEO,49.74423076923077,True,True,False,False,2022.0,2024.0,False,True,False,4.0
+PCAR,Paccar,1526154.0,R Feight,CEO,47.8625,True,True,False,False,2019.0,2024.0,False,True,False,11.0
+PCG,PG&E Corporation,1094129.0,Patti Poppe,CEO,26.112500000000004,True,True,False,False,2021.0,2024.0,False,False,False,7.0
+PEAK,Healthpeak,883761.0,Scott Brinker,President/CEO,53.68173076923077,True,False,True,False,2022.0,2024.0,False,True,False,1.0
+PEG,Public Service Enterprise Group,501346.0,Ralph LaRossa,Chair/President/CEO,64.61538461538461,True,True,False,False,2023.0,2024.0,False,True,False,14.0
+PEP,PepsiCo,1304732.0,Ramon Laguarta,Chairman/President/CEO,22.237499999999997,True,True,True,False,2019.0,2024.0,False,True,False,6.0
+PFE,Pfizer,1361005.0,Doctor Albert Bourla,CEO,31.037500000000005,False,True,False,True,2019.0,2020.0,False,True,False,11.0
+PFG,Principal Financial Group,333969.0,Dan Houston,Chairman/President/CEO,63.35961538461539,True,False,False,False,2016.0,2024.0,False,True,False,0.0
+PG,Procter & Gamble,549254.0,Jon Moeller,Chairman/President/CEO,75.78461538461539,True,False,True,False,2022.0,2024.0,False,True,False,0.0
+PGR,Progressive Corporation,40291.0,Tricia Griffith,President/CEO,53.86346153846154,True,True,False,False,2016.0,2024.0,False,True,False,2.0
+PH,Parker Hannifin,1598566.0,Jenny Parmentier,CEO,45.009375,True,False,True,False,2023.0,2024.0,False,True,False,3.0
+PHM,PulteGroup,204784.0,Richard Dugas Jr,Chairman/CEO,31.16875,True,False,False,False,2016.0,2016.0,False,True,False,3.0
+PKG,Packaging Corporation of America,205273.0,Mark Kowlzan,CEO,40.33,False,False,False,False,2010.0,2016.0,False,True,False,3.0
+PLD,Prologis,12345.0,Co-CEO,CO-CEO,74.2224358974359,True,True,True,False,2011.0,2013.0,False,False,True,2.0
+PM,Philip Morris International,882670.0,Jacek Olczak,CEO,15.4,False,True,False,False,2021.0,2024.0,False,True,False,1.0
+PNC,PNC Financial Services,44576.0,William Demchak,Chairman/President/CEO,58.580769230769235,True,False,True,False,2014.0,2024.0,False,True,False,5.0
+PNR,Pentair,515769.0,John Stauch,President/CEO,59.62307692307692,True,False,False,False,2018.0,2024.0,False,True,False,3.0
+PNW,Pinnacle West,891832.0,Jeff Guldner,Chairman/President/CEO,69.87692307692308,True,True,False,True,2019.0,2024.0,False,True,False,3.0
+PODD,Insulet,1117555.0,Jim Hollingshead,President/CEO,74.13653846153846,True,True,False,True,2022.0,2024.0,False,True,False,7.0
+POOL,Pool Corporation,1351667.0,Pete Arvan,President/CEO,46.155625,True,False,False,False,2019.0,2024.0,False,True,False,2.0
+PPG,PPG Industries,1072202.0,Tim Knavish,Chairman/CEO,38.93942307692308,True,False,True,False,2023.0,2024.0,False,True,False,7.0
+PPL,PPL Corporation,1248729.0,J Burrows,Interim President/CEO,46.604807692307695,True,True,False,False,2021.0,2022.0,False,True,False,5.0
+PRU,Prudential Financial,885991.0,Charlie Lowrey Jr,Chairman Elect/President/CEO,91.76923076923077,True,True,True,False,2018.0,2019.0,False,True,False,10.0
+PSA,Public Storage,270150.0,Joe Russell Jr,President/CEO,79.59615384615384,True,False,True,False,2019.0,2024.0,False,True,False,9.0
+PSX,Phillips 66,1309770.0,Mark Lashier,President/CEO,40.74230769230769,True,False,False,True,2022.0,2024.0,False,True,False,35.0
+PTC,PTC,203273.0,Jim Heppelmann,CEO,66.3,True,False,False,False,2023.0,2023.0,False,True,False,2.0
+PWR,Quanta Services,1048547.0,Duke Austin Jr,President/CEO,34.76875,True,False,False,False,2022.0,2024.0,False,True,False,0.0
+PXD,Pioneer Natural Resources,490986.0,Richard Dealy,CEO,35.571875000000006,True,True,False,False,2024.0,2024.0,False,True,False,2.0
+PYPL,PayPal,1288775.0,Alex Chriss,President/CEO,57.42307692307692,True,False,False,False,2023.0,2024.0,False,False,False,
+QCOM,Qualcomm,1284093.0,Cristiano Amon,President/CEO,14.992857142857144,True,False,False,False,2021.0,2024.0,False,True,False,3.0
+QRVO,Qorvo,181113.0,Bob Bruggeworth,President/CEO,33.80555555555556,True,False,False,False,2015.0,2024.0,False,False,False,9.0
+RCL,Royal Caribbean Group,1269801.0,Jason Liberty,President/CEO,51.20544871794873,True,True,True,False,2022.0,2024.0,False,True,False,5.0
+REG,Regency Centers,885407.0,Lisa Palmer,President/CEO,56.532211538461546,True,False,True,False,2020.0,2024.0,False,True,False,6.0
+REGN,Regeneron,201093.0,Doctor Len Schleifer,Chairman/President/CEO,41.22740384615385,True,True,False,True,1991.0,1994.0,False,False,False,7.0
+RF,Regions Financial Corporation,50251.0,O Hall Jr,Chairman/CEO,44.73110795454546,True,False,True,False,2018.0,2018.0,False,True,False,5.0
+RHI,Robert Half,81587.0,Michael Waddell,Vice Chairman/CEO/President,69.15384615384616,True,False,False,False,2019.0,2024.0,False,True,False,4.0
+RJF,Raymond James,275776.0,Paul Reilly,CEO,49.21666666666666,True,True,True,False,2010.0,2017.0,False,True,False,13.0
+RL,Ralph Lauren Corporation,884348.0,Patrice Louvet,President/CEO,44.83125,True,False,True,False,2017.0,2024.0,False,False,False,5.0
+RMD,ResMed,1089889.0,Mick Farrell,CEO,82.27179487179488,True,True,True,False,2013.0,2023.0,False,True,False,5.0
+ROK,Rockwell Automation,1108705.0,Blake Moret,Chairman/President/CEO,75.3,True,False,False,False,2018.0,2024.0,False,True,False,2.0
+ROL,"Rollins, Inc.",2358330.0,Jerry Gahlhoff Jr,President/CEO,55.083333333333336,True,True,False,False,2023.0,2024.0,False,True,False,3.0
+ROP,Roper Technologies,796522.0,Laurence Hunn,President/CEO,55.30705128205128,True,False,True,False,2018.0,2024.0,False,True,False,1.0
+ROST,Ross Stores,487157.0,Barbara Rentler,CEO,40.33,False,False,False,False,2014.0,2021.0,False,True,False,1.0
+RSG,Republic Services,1305801.0,Jon Vander Ark,President/CEO,64.06538461538462,True,False,False,True,2021.0,2024.0,False,True,False,2.0
+RTX,RTX Corporation,203663.0,Greg Hayes,Chairman/CEO,58.51730769230769,True,True,False,False,2023.0,2024.0,False,True,False,5.0
+RVTY,Revvity (Previously PerkinElmer),183961.0,Rob Friel,Chairman/CEO,39.615624999999994,True,True,False,False,2019.0,2019.0,False,True,False,7.0
+SBAC,SBA Communications,346339.0,Brendan Cavanagh,President/CEO,35.51111111111111,True,True,True,False,2024.0,2024.0,False,True,False,2.0
+SBUX,Starbucks,1519924.0,Laxman Narasimhan,CEO,66.2971153846154,True,True,True,False,2023.0,2024.0,False,False,False,8.0
+SCHW,Charles Schwab Corporation,486476.0,Walt Bettinger II,CEO,38.65440384615384,True,True,False,False,2021.0,2022.0,False,True,False,4.0
+SHW,Sherwin-Williams,2154281.0,Heidi Petz,President/CEO,22.125,True,False,True,False,2024.0,2024.0,False,True,False,20.0
+SJM,J.M. Smucker Company (The),548682.0,Mark Smucker,Chair/President/CEO,40.965056818181814,True,True,False,False,2022.0,2024.0,False,True,False,3.0
+SLB,Schlumberger,484858.0,Olivier Le Peuch,CEO,36.565625,False,True,False,False,2019.0,2024.0,False,True,False,9.0
+SNA,Snap-on,206568.0,Nick Pinchuk,Chairman/President/CEO,58.15192307692308,True,True,True,False,2009.0,2024.0,False,True,False,0.0
+SNPS,Synopsys,1864086.0,Sassine Ghazi,President/CEO,46.525625,True,True,False,True,2024.0,2024.0,False,True,False,5.0
+SO,Southern Company,325858.0,Tom Fanning,Chairman/CEO,48.38901098901099,True,True,False,False,2023.0,2023.0,False,True,False,0.0
+SPG,Simon Property Group,2239679.0,Richard Jackson,President/CEO,24.762500000000003,True,False,True,False,2021.0,2023.0,False,True,False,8.0
+SPGI,S&P Global,604942.0,Doug Peterson,President/CEO,67.03653846153847,True,False,True,False,2013.0,2024.0,False,True,False,4.0
+SRE,Sempra Energy,500995.0,Jeff Martin,CEO,31.53611111111111,True,True,False,True,2018.0,2018.0,False,True,False,9.0
+STE,Steris,549866.0,Walter Rosebrough Jr,CEO Emeritus,26.85,True,False,True,False,2021.0,2023.0,False,False,False,5.0
+STLD,Steel Dynamics,200138.0,Mark Millett,Chairman/CEO,42.75625,True,False,False,False,2023.0,2024.0,False,True,False,4.0
+STT,State Street Corporation,36748.0,Ron O'Hanley III,Chairman/CEO,64.87606837606837,True,False,True,False,2022.0,2024.0,False,True,False,5.0
+STX,Seagate Technology,547579.0,Doctor Dave Mosley,CEO,68.40769230769232,False,False,False,True,2017.0,2024.0,False,True,False,12.0
+STZ,Constellation Brands,1130665.0,Bill Newlands Jr,President/CEO,89.85384615384615,True,False,True,False,2019.0,2024.0,False,True,False,1.0
+SWK,Stanley Black & Decker,4413.0,Don Allan Jr,President/CEO,29.5375,True,True,False,False,2022.0,2024.0,False,True,False,1.0
+SWKS,Skyworks Solutions,327486.0,Liam Griffin,Chairman/President/CEO,60.73461538461538,True,False,True,False,2021.0,2024.0,False,True,False,7.0
+SYF,Synchrony Financial,1449925.0,Brian Doubles,President/CEO,59.62307692307692,True,False,False,False,2021.0,2024.0,False,True,False,1.0
+SYK,Stryker Corporation,1117420.0,Kevin Lobo,Chair/CEO,63.997275641025645,True,True,True,False,2018.0,2021.0,False,True,False,10.0
+SYY,Sysco,2006237.0,Kevin Hourican,President/CEO,44.83125,True,True,False,False,2020.0,2024.0,False,False,False,1.0
+T,AT&T,204331.0,John Stankey,President/CEO,65.70024038461538,True,False,True,False,2020.0,2024.0,False,True,False,2.0
+TAP,Molson Coors Beverage Company,1202080.0,Gavin Hattersley,President/CEO,26.390625,False,True,False,False,2019.0,2024.0,False,True,False,9.0
+TDG,TransDigm Group,895408.0,Doctor Kevin Stein,President/CEO,69.01282051282051,True,True,False,True,2018.0,2024.0,False,True,False,7.0
+TDY,Teledyne Technologies,1345036.0,Doctor Edwin Roks,CEO,51.441964285714285,True,True,False,True,2024.0,2024.0,False,True,False,0.0
+TECH,Bio-Techne,2008711.0,Kim Kelderman,President/CEO,44.83125,True,False,False,False,2024.0,2024.0,False,True,False,0.0
+TEL,TE Connectivity,545843.0,Terrence Curtin,CEO,34.675,True,True,False,False,2017.0,2024.0,False,True,False,9.0
+TER,Teradyne,1668546.0,Greg Smith,President/CEO,85.97692307692309,True,False,False,False,2023.0,2024.0,False,True,False,0.0
+TFC,Truist,44521.0,Bill Rogers Jr,CEO,52.30817307692308,True,False,True,False,2021.0,2022.0,False,True,False,10.0
+TFX,Teleflex,1115309.0,Liam Kelly,Chairman/President/CEO,40.33,False,False,False,False,2020.0,2024.0,False,True,False,10.0
+TGT,Target Corporation,310363.0,Brian Cornell,Chair/CEO,52.247115384615384,True,False,False,False,2014.0,2024.0,False,False,False,3.0
+TJX,TJX Companies,540575.0,Ernie Herrman,President/CEO,34.64807692307692,True,False,False,False,2016.0,2024.0,False,True,False,6.0
+TMO,Thermo Fisher Scientific,202680.0,Marc Casper,Chairman/President/CEO,69.45913461538461,True,False,True,False,2020.0,2024.0,False,True,False,9.0
+TMUS,T-Mobile US,42686.0,Mike Sievert,President/CEO,85.97692307692309,True,False,False,False,2020.0,2024.0,False,True,False,5.0
+TPR,"Tapestry, Inc.",1385060.0,Joanne Crevoiserat,CEO,37.7375,True,False,False,False,2020.0,2021.0,False,True,False,3.0
+TRGP,Targa Resources,1017595.0,Matt Meloy,CEO,54.530208333333334,True,True,False,False,2020.0,2024.0,False,True,False,1.0
+TRMB,Trimble Inc.,1635079.0,Rob Painter,President/CEO,62.22788461538461,True,False,True,False,2020.0,2024.0,False,True,False,3.0
+TROW,T. Rowe Price,1807928.0,Rob Sharps,President/CEO,55.712379807692315,True,False,True,False,2022.0,2024.0,False,True,False,1.0
+TRV,Travelers Companies (The),533891.0,Alan Schnitzer,CEO,86.1923076923077,True,False,False,True,2015.0,2017.0,False,True,False,21.0
+TSCO,Tractor Supply,1127469.0,Hal Lawton III,President/CEO,34.065625000000004,True,False,True,False,2020.0,2024.0,False,False,False,4.0
+TSLA,"Tesla, Inc.",1090701.0,Elon Musk,CEO,71.55683760683762,True,False,False,False,2018.0,2024.0,False,False,False,0.0
+TSN,Tyson Foods,1965011.0,Mike Struthers,CEO,34.822008547008544,True,True,False,False,2022.0,2024.0,False,False,False,3.0
+TT,Trane Technologies,777885.0,Dave Regnery,Chair/President/CEO,55.43966346153846,True,False,True,False,2022.0,2024.0,False,True,False,2.0
+TTWO,Take-Two Interactive,333171.0,Strauss Zelnick,Chairman (Executive)/CEO,77.54967948717949,True,False,True,True,2011.0,2024.0,False,True,False,0.0
+TXN,Texas Instruments,1853290.0,Haviv Ilan,President/CEO,54.621394230769226,True,True,True,False,2023.0,2024.0,False,True,False,4.0
+TXT,Textron,32459.0,Scott Donnelly,Chairman/President/CEO,58.0,True,False,False,False,2010.0,2024.0,False,True,False,2.0
+TYL,Tyler Technologies,325238.0,H Moore Jr,President/CEO,64.34198717948718,True,False,False,True,2018.0,2024.0,False,True,False,0.0
+UAL,United Airlines Holdings,273520.0,J Kirby,CEO,33.00769230769231,True,True,False,False,2020.0,2024.0,False,True,False,11.0
+UBER,Uber,43546.0,Dara Khosrowshahi,CEO,68.21538461538461,True,False,False,False,2019.0,2024.0,False,False,False,1.0
+UDR,"UDR, Inc.",181650.0,Tom Toomey,Chairman/CEO,35.47083333333333,True,True,False,False,2019.0,2024.0,False,False,False,2.0
+UHS,Universal Health Services,494862.0,Marc Miller,President/CEO,63.97596153846154,True,False,True,False,2021.0,2024.0,False,True,False,17.0
+ULTA,Ulta Beauty,1119677.0,Dave Kimbell,CEO,17.1875,True,False,True,False,2021.0,2024.0,False,True,False,2.0
+UNH,UnitedHealth Group,483465.0,Sir Andrew Witty,CEO,54.13461538461539,True,False,False,False,2021.0,2024.0,False,True,False,7.0
+UNP,Union Pacific Corporation,537534.0,Jim Vena,CEO,37.28173076923077,True,False,False,False,2023.0,2024.0,False,True,False,3.0
+UPS,United Parcel Service,33694.0,Carol Tomé,CEO,38.26428571428572,True,False,True,False,2020.0,2024.0,False,True,False,2.0
+URI,United Rentals,628081.0,Matt Flannery,President/CEO,38.63333333333333,True,False,False,False,2019.0,2024.0,False,True,False,2.0
+USB,U.S. Bank,34167.0,Andy Cecere,Chairman/President/CEO,66.3,True,False,True,False,2018.0,2024.0,False,True,False,9.0
+V,Visa Inc.,1122595.0,Ryan McInerney,CEO,56.349999999999994,False,False,False,False,2023.0,2024.0,False,True,False,21.0
+VFC,VF Corporation,549240.0,Bracken Darrell,President/CEO,64.06538461538462,True,False,True,False,2023.0,2024.0,False,False,False,1.0
+VICI,Vici Properties,648089.0,Ed Pitoniak,CEO,34.4,True,False,False,False,2018.0,2024.0,False,False,False,9.0
+VLO,Valero Energy,1118418.0,R Riggs,President/CEO,45.46666666666667,True,False,True,False,2023.0,2024.0,False,True,False,2.0
+VLTO,Veralto,1960145.0,Jennifer Honeycutt,President/CEO/Secretary,38.76428571428571,True,False,True,False,2023.0,2024.0,False,False,False,4.0
+VMC,Vulcan Materials Company,1085549.0,Tom Hill,Chairman/CEO,72.96538461538462,True,True,False,False,2023.0,2024.0,False,True,False,1.0
+VRSK,Verisk,1084068.0,Lee Shavel,CEO,85.97692307692309,True,False,False,False,2022.0,2023.0,False,True,False,11.0
+VRSN,Verisign,82137.0,Jim Bidzos,Chairman (Executive)/CEO,40.33,False,False,False,False,2020.0,2024.0,False,True,False,1.0
+VRTX,Vertex Pharmaceuticals,1396615.0,Paul Sparkes,CEO,30.5875,True,False,False,False,2023.0,2024.0,False,False,False,2.0
+VTR,Ventas,180625.0,Debra Cafaro,Chairman/CEO,72.6826923076923,True,False,False,True,2010.0,2024.0,False,False,False,0.0
+VTRS,Viatris,540927.0,Scott Smith,CEO,35.8625,True,True,False,False,2023.0,2024.0,False,True,False,0.0
+VZ,Verizon,454544.0,Hans Vestberg,CEO,58.26153846153846,True,False,False,False,2018.0,2019.0,False,True,False,4.0
+WAB,Wabtec,1188120.0,Rafael Santana,President/CEO,45.95,True,False,False,False,2019.0,2024.0,False,False,False,0.0
+WAT,Waters Corporation,1384971.0,Doctor Udit Batra,President/CEO,68.04230769230769,True,False,False,True,2020.0,2024.0,False,False,False,0.0
+WBA,Walgreens Boots Alliance,36569.0,Ginger Graham,Interim CEO,61.184134615384615,True,False,True,False,2023.0,2023.0,False,True,False,6.0
+WBD,Warner Bros. Discovery,1056430.0,Prez Liguori,COO/Interim CEO,89.43846153846154,True,False,False,False,2011.0,2011.0,False,True,False,12.0
+WDC,Western Digital,1621914.0,David Goeckeler,CEO,67.80634615384615,True,True,True,False,2020.0,2024.0,False,False,False,1.0
+WEC,WEC Energy Group,1198091.0,Scott Lauber,President/CEO,50.975,True,True,False,False,2022.0,2024.0,False,True,False,4.0
+WELL,Welltower,1655744.0,Shankh Mitra,CEO,55.403846153846146,True,False,True,False,2023.0,2024.0,False,True,False,1.0
+WFC,Wells Fargo,33951.0,Charlie Scharf,President/CEO,81.3,True,False,True,False,2019.0,2024.0,False,False,False,18.0
+WHR,Whirlpool Corporation,485987.0,Doctor Marc Bitzer,Chairman/CEO,36.11875,True,False,True,True,2021.0,2024.0,False,True,False,2.0
+WM,Waste Management,452740.0,Brian Penny,CEO,35.24583333333334,False,True,False,False,2024.0,2024.0,False,True,False,2.0
+WMB,Williams Companies,443291.0,Alan Armstrong,President/CEO,38.63333333333333,True,False,False,False,2011.0,2024.0,False,True,False,8.0
+WMT,Walmart,32097.0,Doug McMillon,President/CEO,51.8632326007326,True,False,True,False,2014.0,2024.0,False,True,False,7.0
+WRB,Berkley,82162.0,Rob Berkley Jr,President/CEO,74.93589743589745,True,False,False,False,2015.0,2024.0,False,True,False,2.0
+WRK,WestRock,1300902.0,David Sewell,President/CEO,65.46153846153847,True,False,False,False,2021.0,2024.0,False,False,False,4.0
+WST,West Pharmaceutical Services,1194462.0,Eric Green,Chair/President/CEO,17.925,True,False,True,False,2022.0,2024.0,False,False,False,18.0
+WTW,Willis Towers Watson,606187.0,Carl Hess,President/CEO,53.68173076923077,True,True,False,False,2022.0,2024.0,False,True,False,4.0
+WY,Weyerhaeuser,1266749.0,Devin Stockfish,President/CEO,64.76813186813186,True,False,False,True,2019.0,2024.0,False,True,False,2.0
+WYNN,Wynn Resorts,883685.0,Craig Billings,CEO,51.17589743589743,True,True,True,False,2022.0,2024.0,False,True,False,11.0
+XEL,Xcel Energy,1701735.0,Bob Frenzel,Chairman/President/CEO,39.580555555555556,True,False,True,False,2021.0,2024.0,False,True,False,17.0
+XOM,ExxonMobil,1253894.0,Darren Woods,Chairman/CEO,66.61153846153846,True,False,True,False,2017.0,2024.0,False,True,False,4.0
+XRAY,Dentsply Sirona,1320537.0,John Groetelaars,Interim CEO,52.16634615384615,True,False,True,False,2022.0,2022.0,False,True,False,1.0
+XYL,Xylem Inc.,2289643.0,Matthew Pine,CEO,58.886538461538464,True,False,True,False,2024.0,2024.0,False,True,False,
+YUM,Yum! Brands,1364829.0,David Gibbs,CEO,84.44999999999999,True,False,True,False,2020.0,2024.0,False,True,False,10.0
+ZBH,Zimmer Biomet,2109247.0,Ivan Tornos,President/CEO,50.97222985347985,True,True,True,False,2023.0,2024.0,False,True,False,1.0
+ZBRA,Zebra Technologies,485963.0,Bill Burns,CEO,33.97083333333333,True,False,True,False,2023.0,2024.0,False,True,False,1.0
+ZION,Zions Bancorporation,57861.0,Harris Simmons,Chairman/CEO,72.44038461538462,True,False,True,False,2014.0,2024.0,False,True,False,24.0
+ZTS,Zoetis,1074205.0,Kristin Peck,CEO,70.85,True,False,True,False,2020.0,2024.0,False,True,False,0.0

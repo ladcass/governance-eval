@@ -1,0 +1,504 @@
+year,ticker,company_name,num_committees,over75_pct,num_meetings
+2023,MMM,3M,9.0,1.0,10.0
+2023,AOS,A. O. Smith,12.0,1.0,10.0
+2023,ABT,Abbott,6.0,1.0,12.0
+2023,ABBV,AbbVie,6.0,1.0,11.0
+2023,ACN,Accenture,7.0,1.0,9.0
+2023,ADBE,Adobe Inc.,7.0,1.0,12.0
+2023,AMD,Advanced Micro Devices,8.0,1.0,9.0
+2023,AES,AES Corporation,11.0,1.0,10.0
+2023,AFL,Aflac,11.0,1.0,11.0
+2023,A,Agilent Technologies,9.0,1.0,11.0
+2023,APD,Air Products and Chemicals,8.0,1.0,8.0
+2023,ABNB,Airbnb,4.0,1.0,8.0
+2023,AKAM,Akamai,6.0,1.0,10.0
+2023,ALB,Albemarle Corporation,12.0,1.0,10.0
+2023,ARE,Alexandria Real Estate Equities,12.0,1.0,7.0
+2023,ALGN,Align Technology,5.0,1.0,8.0
+2023,ALLE,Allegion,4.0,1.0,9.0
+2023,LNT,Alliant Energy,9.0,1.0,9.0
+2023,ALL,Allstate,7.0,1.0,12.0
+2023,GOOGL,Alphabet Inc. (Class A),8.0,1.0,11.0
+2023,GOOG,Alphabet Inc. (Class C),8.0,,
+2023,MO,Altria,10.0,1.0,12.0
+2023,AMZN,Amazon,6.0,1.0,11.0
+2023,AMCR,Amcor,7.0,1.0,10.0
+2023,AEE,Ameren,14.0,1.0,14.0
+2023,AAL,American Airlines Group,7.0,1.0,13.0
+2023,AEP,American Electric Power,9.0,1.0,13.0
+2023,AXP,American Express,24.0,1.0,14.0
+2023,AIG,American International Group,14.0,1.0,10.0
+2023,AMT,American Tower,6.0,1.0,12.0
+2023,AWK,American Water Works,7.0,1.0,10.0
+2023,AMP,Ameriprise Financial,5.0,1.0,8.0
+2023,AME,Ametek,10.0,1.0,9.0
+2023,AMGN,Amgen,10.0,1.0,13.0
+2023,APH,Amphenol,5.0,1.0,9.0
+2023,ADI,Analog Devices,6.0,1.0,11.0
+2023,ANSS,Ansys,7.0,1.0,10.0
+2023,AON,Aon,7.0,1.0,12.0
+2023,APA,APA Corporation,8.0,1.0,10.0
+2023,AAPL,Apple Inc.,5.0,1.0,9.0
+2023,AMAT,Applied Materials,7.0,1.0,10.0
+2023,APTV,Aptiv,5.0,1.0,10.0
+2023,ACGL,Arch Capital Group,10.0,1.0,13.0
+2023,ADM,Archer-Daniels-Midland,11.0,1.0,11.0
+2023,ANET,Arista Networks,4.0,1.0,9.0
+2023,AJG,Arthur J. Gallagher & Co.,7.0,1.0,9.0
+2023,AIZ,Assurant,8.0,1.0,13.0
+2023,T,AT&T,15.0,1.0,10.0
+2023,ATO,Atmos Energy,7.0,1.0,11.0
+2023,ADSK,Autodesk,5.0,1.0,11.0
+2023,ADP,Automated Data Processing,7.0,1.0,12.0
+2023,AZO,AutoZone,4.0,1.0,10.0
+2023,AVB,AvalonBay Communities,6.0,1.0,12.0
+2023,AVY,Avery Dennison,14.0,1.0,10.0
+2023,AXON,Axon Enterprise,11.0,1.0,11.0
+2023,BKR,Baker Hughes,12.0,1.0,9.0
+2023,BALL,Ball Corporation,6.0,1.0,11.0
+2023,BAC,Bank of America,18.0,1.0,14.0
+2023,BK,Bank of New York Mellon,16.0,1.0,11.0
+2023,BBWI,"Bath & Body Works, Inc.",8.0,1.0,13.0
+2023,BAX,Baxter International,11.0,1.0,10.0
+2023,BDX,Becton Dickinson,14.0,1.0,11.0
+2023,BRK.B,Berkshire Hathaway,2.0,1.0,15.0
+2023,BBY,Best Buy,9.0,1.0,12.0
+2023,BIO,Bio-Rad,3.0,1.0,6.0
+2023,TECH,Bio-Techne,5.0,1.0,9.0
+2023,BIIB,Biogen,8.0,1.0,10.0
+2023,BLK,BlackRock,8.0,1.0,16.0
+2023,BX,Blackstone,5.0,,
+2023,BA,Boeing,12.0,1.0,13.0
+2023,BKNG,Booking Holdings,6.0,1.0,11.0
+2023,BWA,BorgWarner,6.0,1.0,8.0
+2023,BXP,Boston Properties,7.0,1.0,11.0
+2023,BSX,Boston Scientific,10.0,1.0,9.0
+2023,BMY,Bristol Myers Squibb,6.0,1.0,11.0
+2023,AVGO,Broadcom Inc.,6.0,1.0,9.0
+2023,BR,Broadridge Financial Solutions,6.0,1.0,11.0
+2023,BRO,Brown & Brown,4.0,1.0,12.0
+2023,BF.B,Brown–Forman,5.0,1.0,11.0
+2023,BLDR,Builders FirstSource,4.0,1.0,10.0
+2023,BG,Bunge Global SA,10.0,1.0,11.0
+2023,CDNS,Cadence Design Systems,8.0,1.0,10.0
+2023,CZR,Caesars Entertainment,17.0,1.0,9.0
+2023,CPT,Camden Property Trust,6.0,1.0,10.0
+2023,CPB,Campbell Soup Company,5.0,1.0,12.0
+2023,COF,Capital One,8.0,1.0,12.0
+2023,CAH,Cardinal Health,11.0,1.0,11.0
+2023,KMX,CarMax,5.0,1.0,11.0
+2023,CCL,Carnival,8.0,1.0,11.0
+2023,CARR,Carrier Global,4.0,1.0,9.0
+2023,CTLT,Catalent,7.0,,
+2023,CAT,Caterpillar Inc.,10.0,1.0,11.0
+2023,CBOE,Cboe Global Markets,8.0,1.0,12.0
+2023,CBRE,CBRE Group,6.0,1.0,11.0
+2023,CDW,CDW,4.0,1.0,10.0
+2023,CE,Celanese,7.0,1.0,10.0
+2023,COR,Cencora,18.0,1.0,10.0
+2023,CNC,Centene Corporation,15.0,1.0,10.0
+2023,CNP,CenterPoint Energy,7.0,1.0,9.0
+2023,CF,CF Industries,13.0,1.0,11.0
+2023,CHRW,CH Robinson,7.0,1.0,11.0
+2023,CRL,Charles River Laboratories,8.0,1.0,11.0
+2023,SCHW,Charles Schwab Corporation,5.0,1.0,17.0
+2023,CHTR,Charter Communications,4.0,1.0,13.0
+2023,CVX,Chevron Corporation,5.0,1.0,12.0
+2023,CMG,Chipotle Mexican Grill,6.0,1.0,9.0
+2023,CB,Chubb Limited,8.0,1.0,13.0
+2023,CHD,Church & Dwight,8.0,1.0,10.0
+2023,CI,Cigna,6.0,1.0,11.0
+2023,CINF,Cincinnati Financial,5.0,1.0,12.0
+2023,CTAS,Cintas,5.0,1.0,10.0
+2023,CSCO,Cisco,14.0,1.0,9.0
+2023,C,Citigroup,23.0,1.0,13.0
+2023,CFG,Citizens Financial Group,6.0,1.0,13.0
+2023,CLX,Clorox,8.0,1.0,12.0
+2023,CME,CME Group,16.0,1.0,23.0
+2023,CMS,CMS Energy,13.0,1.0,11.0
+2023,KO,Coca-Cola Company (The),13.0,1.0,13.0
+2023,CTSH,Cognizant,9.0,1.0,13.0
+2023,CL,Colgate-Palmolive,9.0,1.0,11.0
+2023,CMCSA,Comcast,7.0,1.0,10.0
+2023,CMA,Comerica,13.0,1.0,13.0
+2023,CAG,Conagra Brands,10.0,1.0,11.0
+2023,COP,ConocoPhillips,8.0,1.0,13.0
+2023,ED,Consolidated Edison,13.0,1.0,11.0
+2023,STZ,Constellation Brands,5.0,1.0,11.0
+2023,CEG,Constellation Energy,12.0,1.0,10.0
+2023,COO,CooperCompanies,10.0,1.0,8.0
+2023,CPRT,Copart,5.0,1.0,11.0
+2023,GLW,Corning Inc.,10.0,1.0,15.0
+2023,CTVA,Corteva,5.0,1.0,13.0
+2023,CSGP,CoStar Group,4.0,1.0,8.0
+2023,COST,Costco,4.0,1.0,11.0
+2023,CTRA,Coterra,11.0,1.0,10.0
+2023,CCI,Crown Castle,7.0,1.0,10.0
+2023,CSX,CSX,11.0,1.0,11.0
+2023,CMI,Cummins,10.0,1.0,12.0
+2023,CVS,CVS Health,7.0,1.0,11.0
+2023,DHR,Danaher Corporation,8.0,1.0,14.0
+2023,DRI,Darden Restaurants,6.0,1.0,9.0
+2023,DVA,DaVita Inc.,7.0,1.0,9.0
+2023,DAY,Dayforce,4.0,,
+2023,DE,John Deere,9.0,1.0,11.0
+2023,DAL,Delta Air Lines,8.0,1.0,13.0
+2023,XRAY,Dentsply Sirona,7.0,1.0,11.0
+2023,DVN,Devon Energy,9.0,1.0,11.0
+2023,DXCM,Dexcom,4.0,1.0,10.0
+2023,FANG,Diamondback Energy,5.0,1.0,9.0
+2023,DLR,Digital Realty,3.0,1.0,9.0
+2023,DFS,Discover Financial,10.0,1.0,12.0
+2023,DG,Dollar General,10.0,1.0,9.0
+2023,DLTR,Dollar Tree,8.0,1.0,10.0
+2023,D,Dominion Energy,9.0,1.0,11.0
+2023,DPZ,Domino's,5.0,1.0,9.0
+2023,DOV,Dover Corporation,5.0,1.0,9.0
+2023,DOW,Dow Inc.,13.0,1.0,12.0
+2023,DHI,DR Horton,4.0,1.0,6.0
+2023,DTE,DTE Energy,9.0,1.0,10.0
+2023,DUK,Duke Energy,10.0,1.0,14.0
+2023,DD,DuPont,12.0,1.0,12.0
+2023,EMN,Eastman Chemical Company,8.0,1.0,12.0
+2023,ETN,Eaton Corporation,7.0,1.0,10.0
+2023,EBAY,eBay,6.0,1.0,9.0
+2023,ECL,Ecolab,6.0,1.0,13.0
+2023,EIX,Edison International,11.0,1.0,11.0
+2023,EW,Edwards Lifesciences,5.0,1.0,9.0
+2023,EA,Electronic Arts,6.0,1.0,8.0
+2023,ELV,Elevance Health,9.0,1.0,11.0
+2023,LLY,Eli Lilly and Company,8.0,1.0,12.0
+2023,EMR,Emerson Electric,9.0,1.0,11.0
+2023,ENPH,Enphase,3.0,1.0,7.0
+2023,ETR,Entergy,10.0,1.0,12.0
+2023,EOG,EOG Resources,10.0,1.0,9.0
+2023,EPAM,EPAM Systems,3.0,1.0,9.0
+2023,EQT,EQT,8.0,1.0,11.0
+2023,EFX,Equifax,12.0,1.0,10.0
+2023,EQIX,Equinix,10.0,0.0,11.0
+2023,EQR,Equity Residential,6.0,1.0,9.0
+2023,ESS,Essex Property Trust,7.0,1.0,10.0
+2023,EL,Estée Lauder Companies (The),5.0,1.0,15.0
+2023,ETSY,Etsy,4.0,1.0,9.0
+2023,EG,Everest Re,7.0,1.0,9.0
+2023,EVRG,Evergy,10.0,1.0,11.0
+2023,ES,Eversource,13.0,1.0,11.0
+2023,EXC,Exelon,15.0,1.0,8.0
+2023,EXPE,Expedia Group,6.0,1.0,12.0
+2023,EXPD,Expeditors International,4.0,1.0,9.0
+2023,EXR,Extra Space Storage,4.0,1.0,10.0
+2023,XOM,ExxonMobil,10.0,1.0,12.0
+2023,FFIV,"F5, Inc.",6.0,1.0,11.0
+2023,FDS,FactSet,5.0,1.0,9.0
+2023,FICO,Fair Isaac,6.0,1.0,8.0
+2023,FAST,Fastenal,6.0,1.0,10.0
+2023,FRT,Federal Realty,5.0,1.0,7.0
+2023,FDX,FedEx,9.0,1.0,13.0
+2023,FIS,Fidelity National Information Services,11.0,1.0,12.0
+2023,FITB,Fifth Third Bank,12.0,1.0,14.0
+2023,FSLR,First Solar,5.0,1.0,12.0
+2023,FE,FirstEnergy,12.0,1.0,11.0
+2023,FI,Fiserv,7.0,1.0,8.0
+2023,FLT,Fleetcor,8.0,1.0,11.0
+2023,FMC,FMC Corporation,7.0,1.0,10.0
+2023,F,Ford Motor Company,14.0,1.0,14.0
+2023,FTNT,Fortinet,6.0,1.0,8.0
+2023,FTV,Fortive,4.0,1.0,9.0
+2023,FOXA,Fox Corporation (Class A),3.0,1.0,7.0
+2023,FOX,Fox Corporation (Class B),4.0,,
+2023,BEN,Franklin Templeton,5.0,1.0,11.0
+2023,FCX,Freeport-McMoRan,9.0,1.0,12.0
+2023,GRMN,Garmin,4.0,1.0,6.0
+2023,IT,Gartner,7.0,1.0,12.0
+2023,GEHC,GE HealthCare,3.0,1.0,10.0
+2023,GEN,Gen Digital,8.0,1.0,10.0
+2023,GNRC,Generac,4.0,1.0,11.0
+2023,GD,General Dynamics,10.0,1.0,13.0
+2023,GE,General Electric,14.0,1.0,10.0
+2023,GIS,General Mills,11.0,1.0,11.0
+2023,GM,General Motors,12.0,1.0,13.0
+2023,GPC,Genuine Parts Company,6.0,1.0,13.0
+2023,GILD,Gilead Sciences,7.0,1.0,9.0
+2023,GPN,Global Payments,7.0,1.0,11.0
+2023,GL,Globe Life,6.0,1.0,12.0
+2023,GS,Goldman Sachs,7.0,1.0,12.0
+2023,HAL,Halliburton,5.0,1.0,13.0
+2023,HIG,Hartford (The),9.0,1.0,11.0
+2023,HAS,Hasbro,10.0,1.0,11.0
+2023,HCA,HCA Healthcare,9.0,1.0,10.0
+2023,PEAK,Healthpeak,11.0,1.0,8.0
+2023,HSIC,Henry Schein,7.0,1.0,14.0
+2023,HSY,Hershey's,7.0,1.0,11.0
+2023,HES,Hess Corporation,9.0,1.0,12.0
+2023,HPE,Hewlett Packard Enterprise,5.0,1.0,12.0
+2023,HLT,Hilton Worldwide,7.0,1.0,10.0
+2023,HOLX,Hologic,8.0,1.0,9.0
+2023,HD,Home Depot (The),10.0,1.0,13.0
+2023,HON,Honeywell,5.0,1.0,11.0
+2023,HRL,Hormel Foods,9.0,1.0,11.0
+2023,HST,Host Hotels & Resorts,5.0,1.0,9.0
+2023,HWM,Howmet Aerospace,11.0,1.0,9.0
+2023,HPQ,HP Inc.,12.0,1.0,13.0
+2023,HUBB,Hubbell Incorporated,5.0,1.0,10.0
+2023,HUM,Humana,14.0,1.0,12.0
+2023,HBAN,Huntington Bancshares,16.0,1.0,13.0
+2023,HII,Huntington Ingalls Industries,6.0,1.0,11.0
+2023,IBM,IBM,4.0,1.0,12.0
+2023,IEX,IDEX Corporation,5.0,1.0,10.0
+2023,IDXX,Idexx Laboratories,7.0,1.0,10.0
+2023,ITW,Illinois Tool Works,5.0,1.0,10.0
+2023,ILMN,Illumina,5.0,1.0,12.0
+2023,INCY,Incyte,9.0,1.0,9.0
+2023,IR,Ingersoll Rand,12.0,1.0,10.0
+2023,PODD,Insulet,5.0,1.0,9.0
+2023,INTC,Intel,11.0,1.0,12.0
+2023,ICE,Intercontinental Exchange,8.0,1.0,10.0
+2023,IFF,International Flavors & Fragrances,10.0,1.0,11.0
+2023,IP,International Paper,6.0,1.0,11.0
+2023,IPG,Interpublic Group of Companies (The),9.0,1.0,9.0
+2023,INTU,Intuit,8.0,1.0,9.0
+2023,ISRG,Intuitive Surgical,3.0,1.0,11.0
+2023,IVZ,Invesco,7.0,1.0,12.0
+2023,INVH,Invitation Homes,4.0,1.0,10.0
+2023,IQV,IQVIA,5.0,1.0,10.0
+2023,IRM,Iron Mountain,11.0,1.0,10.0
+2023,JBHT,J.B. Hunt,6.0,1.0,9.0
+2023,JBL,Jabil,5.0,1.0,8.0
+2023,JKHY,Jack Henry & Associates,6.0,1.0,9.0
+2023,J,Jacobs Solutions,5.0,1.0,11.0
+2023,JNJ,Johnson & Johnson,11.0,1.0,12.0
+2023,JCI,Johnson Controls,12.0,1.0,11.0
+2023,JPM,JPMorgan Chase,8.0,0.0,12.0
+2023,JNPR,Juniper Networks,4.0,1.0,10.0
+2023,K,Kellanova,23.0,1.0,11.0
+2023,KVUE,Kenvue,,,
+2023,KDP,Keurig Dr Pepper,7.0,1.0,11.0
+2023,KEY,KeyCorp,15.0,1.0,13.0
+2023,KEYS,Keysight,8.0,1.0,11.0
+2023,KMB,Kimberly-Clark,8.0,1.0,12.0
+2023,KIM,Kimco Realty,5.0,1.0,8.0
+2023,KMI,Kinder Morgan,5.0,1.0,14.0
+2023,KLAC,KLA Corporation,5.0,1.0,10.0
+2023,KHC,Kraft Heinz,5.0,1.0,12.0
+2023,KR,Kroger,9.0,1.0,11.0
+2023,LHX,L3Harris,14.0,1.0,12.0
+2023,LH,LabCorp,8.0,1.0,11.0
+2023,LRCX,Lam Research,5.0,1.0,11.0
+2023,LW,Lamb Weston,5.0,1.0,11.0
+2023,LVS,Las Vegas Sands,7.0,1.0,8.0
+2023,LDOS,Leidos,12.0,1.0,12.0
+2023,LEN,Lennar,9.0,1.0,10.0
+2023,LIN,Linde plc,10.0,1.0,10.0
+2023,LYV,Live Nation Entertainment,4.0,1.0,11.0
+2023,LKQ,LKQ Corporation,7.0,1.0,9.0
+2023,LMT,Lockheed Martin,12.0,1.0,13.0
+2023,L,Loews Corporation,12.0,1.0,11.0
+2023,LOW,Lowe's,9.0,1.0,12.0
+2023,LULU,Lululemon Athletica,6.0,1.0,10.0
+2023,LYB,LyondellBasell,8.0,1.0,11.0
+2023,MTB,M&T Bank,10.0,1.0,17.0
+2023,MRO,Marathon Oil,9.0,1.0,8.0
+2023,MPC,Marathon Petroleum,9.0,1.0,12.0
+2023,MKTX,MarketAxess,8.0,1.0,11.0
+2023,MAR,Marriott International,10.0,1.0,13.0
+2023,MMC,Marsh McLennan,14.0,1.0,14.0
+2023,MLM,Martin Marietta Materials,8.0,1.0,10.0
+2023,MAS,Masco,6.0,1.0,9.0
+2023,MA,Mastercard,4.0,1.0,12.0
+2023,MTCH,Match Group,7.0,1.0,10.0
+2023,MKC,McCormick & Company,5.0,1.0,11.0
+2023,MCD,McDonald's,10.0,1.0,13.0
+2023,MCK,McKesson,9.0,1.0,11.0
+2023,MDT,Medtronic,12.0,1.0,11.0
+2023,MRK,Merck & Co.,19.0,1.0,13.0
+2023,META,Meta Platforms,7.0,1.0,9.0
+2023,MET,MetLife,12.0,1.0,14.0
+2023,MTD,Mettler Toledo,4.0,1.0,8.0
+2023,MGM,MGM Resorts,12.0,1.0,11.0
+2023,MCHP,Microchip Technology,4.0,1.0,7.0
+2023,MU,Micron Technology,7.0,1.0,8.0
+2023,MSFT,Microsoft,7.0,1.0,12.0
+2023,MAA,Mid-America Apartment Communities,13.0,1.0,13.0
+2023,MRNA,Moderna,7.0,1.0,9.0
+2023,MHK,Mohawk Industries,3.0,1.0,8.0
+2023,MOH,Molina Healthcare,10.0,1.0,9.0
+2023,TAP,Molson Coors Beverage Company,6.0,1.0,14.0
+2023,MDLZ,Mondelez International,10.0,1.0,9.0
+2023,MPWR,Monolithic Power Systems,4.0,1.0,8.0
+2023,MNST,Monster Beverage,5.0,1.0,10.0
+2023,MCO,Moody's Corporation,9.0,1.0,10.0
+2023,MS,Morgan Stanley,9.0,1.0,14.0
+2023,MOS,Mosaic Company (The),8.0,1.0,11.0
+2023,MSI,Motorola Solutions,11.0,1.0,8.0
+2023,MSCI,MSCI,8.0,1.0,12.0
+2023,NDAQ,"Nasdaq, Inc.",11.0,1.0,11.0
+2023,NTAP,NetApp,8.0,1.0,9.0
+2023,NFLX,Netflix,5.0,1.0,12.0
+2023,NEM,Newmont,12.0,1.0,12.0
+2023,NWSA,News Corp (Class A),3.0,1.0,7.0
+2023,NWS,News Corp (Class B),3.0,,
+2023,NEE,NextEra Energy,7.0,1.0,12.0
+2023,NKE,"Nike, Inc.",9.0,1.0,13.0
+2023,NI,NiSource,14.0,1.0,12.0
+2023,NDSN,Nordson Corporation,7.0,1.0,9.0
+2023,NSC,Norfolk Southern Railway,11.0,1.0,13.0
+2023,NTRS,Northern Trust,9.0,1.0,12.0
+2023,NOC,Northrop Grumman,10.0,0.0,13.0
+2023,NCLH,Norwegian Cruise Line Holdings,4.0,1.0,8.0
+2023,NRG,NRG Energy,12.0,1.0,10.0
+2023,NUE,Nucor,3.0,1.0,8.0
+2023,NVDA,Nvidia,3.0,1.0,13.0
+2023,NVR,"NVR, Inc.",8.0,1.0,10.0
+2023,NXPI,NXP Semiconductors,6.0,1.0,10.0
+2023,ORLY,O'Reilly Auto Parts,4.0,0.0,10.0
+2023,OXY,Occidental Petroleum,16.0,1.0,10.0
+2023,ODFL,Old Dominion,7.0,1.0,11.0
+2023,OMC,Omnicom Group,7.0,1.0,10.0
+2023,ON,ON Semiconductor,10.0,1.0,9.0
+2023,OKE,ONEOK,5.0,1.0,10.0
+2023,ORCL,Oracle Corporation,8.0,1.0,15.0
+2023,OTIS,Otis Worldwide,3.0,1.0,10.0
+2023,PCAR,Paccar,5.0,1.0,12.0
+2023,PKG,Packaging Corporation of America,5.0,1.0,10.0
+2023,PANW,Palo Alto Networks,7.0,1.0,10.0
+2023,PARA,Paramount Global,3.0,1.0,11.0
+2023,PH,Parker Hannifin,7.0,1.0,13.0
+2023,PAYX,Paychex,8.0,1.0,12.0
+2023,PAYC,Paycom,3.0,1.0,8.0
+2023,PYPL,PayPal,4.0,1.0,12.0
+2023,PNR,Pentair,7.0,1.0,9.0
+2023,PEP,PepsiCo,6.0,1.0,15.0
+2023,PFE,Pfizer,8.0,1.0,12.0
+2023,PCG,PG&E Corporation,14.0,1.0,14.0
+2023,PM,Philip Morris International,7.0,1.0,12.0
+2023,PSX,Phillips 66,6.0,1.0,13.0
+2023,PNW,Pinnacle West,7.0,1.0,11.0
+2023,PXD,Pioneer Natural Resources,7.0,1.0,12.0
+2023,PNC,PNC Financial Services,13.0,1.0,13.0
+2023,POOL,Pool Corporation,6.0,1.0,9.0
+2023,PPG,PPG Industries,8.0,1.0,12.0
+2023,PPL,PPL Corporation,18.0,1.0,10.0
+2023,PFG,Principal Financial Group,9.0,1.0,12.0
+2023,PG,Procter & Gamble,19.0,1.0,14.0
+2023,PGR,Progressive Corporation,8.0,1.0,12.0
+2023,PLD,Prologis,7.0,1.0,11.0
+2023,PRU,Prudential Financial,9.0,1.0,9.0
+2023,PEG,Public Service Enterprise Group,10.0,1.0,10.0
+2023,PTC,PTC,12.0,1.0,9.0
+2023,PSA,Public Storage,6.0,1.0,13.0
+2023,PHM,PulteGroup,8.0,1.0,10.0
+2023,QRVO,Qorvo,4.0,1.0,9.0
+2023,PWR,Quanta Services,9.0,1.0,10.0
+2023,QCOM,Qualcomm,9.0,1.0,12.0
+2023,DGX,Quest Diagnostics,9.0,1.0,10.0
+2023,RL,Ralph Lauren Corporation,8.0,0.0,13.0
+2023,RJF,Raymond James,12.0,1.0,10.0
+2023,RTX,RTX Corporation,12.0,1.0,13.0
+2023,O,Realty Income,7.0,1.0,11.0
+2023,REG,Regency Centers,8.0,1.0,11.0
+2023,REGN,Regeneron,5.0,1.0,12.0
+2023,RF,Regions Financial Corporation,7.0,1.0,13.0
+2023,RSG,Republic Services,10.0,1.0,11.0
+2023,RMD,ResMed,8.0,1.0,10.0
+2023,RVTY,Revvity (Previously PerkinElmer),9.0,1.0,9.0
+2023,RHI,Robert Half,7.0,1.0,8.0
+2023,ROK,Rockwell Automation,11.0,1.0,11.0
+2023,ROL,"Rollins, Inc.",7.0,1.0,11.0
+2023,ROP,Roper Technologies,5.0,1.0,9.0
+2023,ROST,Ross Stores,4.0,1.0,11.0
+2023,RCL,Royal Caribbean Group,10.0,1.0,14.0
+2023,SPGI,S&P Global,7.0,1.0,13.0
+2023,CRM,Salesforce,9.0,1.0,13.0
+2023,SBAC,SBA Communications,5.0,1.0,9.0
+2023,SLB,Schlumberger,8.0,1.0,11.0
+2023,STX,Seagate Technology,7.0,1.0,11.0
+2023,SRE,Sempra Energy,13.0,1.0,9.0
+2023,NOW,ServiceNow,3.0,1.0,11.0
+2023,SHW,Sherwin-Williams,4.0,1.0,9.0
+2023,SPG,Simon Property Group,10.0,1.0,13.0
+2023,SWKS,Skyworks Solutions,4.0,1.0,9.0
+2023,SJM,J.M. Smucker Company (The),6.0,1.0,10.0
+2023,SNA,Snap-on,9.0,1.0,10.0
+2023,SO,Southern Company,13.0,1.0,16.0
+2023,LUV,Southwest Airlines,8.0,1.0,14.0
+2023,SWK,Stanley Black & Decker,7.0,1.0,10.0
+2023,SBUX,Starbucks,6.0,1.0,8.0
+2023,STT,State Street Corporation,10.0,1.0,12.0
+2023,STLD,Steel Dynamics,3.0,1.0,10.0
+2023,STE,Steris,12.0,1.0,10.0
+2023,SYK,Stryker Corporation,6.0,1.0,10.0
+2023,SYF,Synchrony Financial,5.0,1.0,10.0
+2023,SNPS,Synopsys,8.0,1.0,9.0
+2023,SYY,Sysco,12.0,0.0,11.0
+2023,TMUS,T-Mobile US,7.0,1.0,13.0
+2023,TROW,T. Rowe Price,6.0,1.0,11.0
+2023,TTWO,Take-Two Interactive,6.0,1.0,10.0
+2023,TPR,"Tapestry, Inc.",7.0,1.0,9.0
+2023,TRGP,Targa Resources,6.0,1.0,11.0
+2023,TGT,Target Corporation,17.0,1.0,12.0
+2023,TEL,TE Connectivity,3.0,1.0,12.0
+2023,TDY,Teledyne Technologies,4.0,1.0,11.0
+2023,TFX,Teleflex,6.0,1.0,9.0
+2023,TER,Teradyne,7.0,1.0,8.0
+2023,TSLA,"Tesla, Inc.",5.0,1.0,8.0
+2023,TXN,Texas Instruments,6.0,1.0,12.0
+2023,TXT,Textron,4.0,1.0,9.0
+2023,TMO,Thermo Fisher Scientific,9.0,1.0,11.0
+2023,TJX,TJX Companies,9.0,1.0,9.0
+2023,TSCO,Tractor Supply,7.0,1.0,8.0
+2023,TT,Trane Technologies,12.0,0.0,11.0
+2023,TDG,TransDigm Group,9.0,1.0,11.0
+2023,TRV,Travelers Companies (The),8.0,1.0,14.0
+2023,TRMB,Trimble Inc.,7.0,1.0,9.0
+2023,TFC,Truist,17.0,1.0,21.0
+2023,TYL,Tyler Technologies,4.0,1.0,8.0
+2023,TSN,Tyson Foods,13.0,1.0,13.0
+2023,USB,U.S. Bank,12.0,1.0,13.0
+2023,UBER,Uber,3.0,,
+2023,UDR,"UDR, Inc.",7.0,1.0,10.0
+2023,ULTA,Ulta Beauty,3.0,1.0,11.0
+2023,UNP,Union Pacific Corporation,7.0,1.0,10.0
+2023,UAL,United Airlines Holdings,7.0,1.0,13.0
+2023,UPS,United Parcel Service,7.0,1.0,12.0
+2023,URI,United Rentals,11.0,1.0,11.0
+2023,UNH,UnitedHealth Group,11.0,1.0,9.0
+2023,UHS,Universal Health Services,7.0,1.0,7.0
+2023,VLO,Valero Energy,10.0,1.0,11.0
+2023,VTR,Ventas,9.0,1.0,11.0
+2023,VLTO,Veralto,3.0,,
+2023,VRSN,Verisign,5.0,1.0,8.0
+2023,VRSK,Verisk,7.0,1.0,10.0
+2023,VZ,Verizon,8.0,1.0,12.0
+2023,VRTX,Vertex Pharmaceuticals,8.0,1.0,9.0
+2023,VFC,VF Corporation,11.0,1.0,10.0
+2023,VTRS,Viatris,10.0,1.0,11.0
+2023,VICI,Vici Properties,4.0,1.0,7.0
+2023,V,Visa Inc.,4.0,1.0,10.0
+2023,VMC,Vulcan Materials Company,9.0,1.0,12.0
+2023,WRB,Berkley,7.0,1.0,9.0
+2023,WAB,Wabtec,5.0,1.0,9.0
+2023,WBA,Walgreens Boots Alliance,8.0,1.0,10.0
+2023,WMT,Walmart,11.0,1.0,11.0
+2023,DIS,Walt Disney,7.0,1.0,11.0
+2023,WBD,Warner Bros. Discovery,5.0,1.0,13.0
+2023,WM,Waste Management,13.0,1.0,9.0
+2023,WAT,Waters Corporation,7.0,1.0,9.0
+2023,WEC,WEC Energy Group,8.0,1.0,12.0
+2023,WFC,Wells Fargo,13.0,1.0,13.0
+2023,WELL,Welltower,9.0,1.0,10.0
+2023,WST,West Pharmaceutical Services,5.0,1.0,11.0
+2023,WDC,Western Digital,7.0,1.0,9.0
+2023,WRK,WestRock,5.0,1.0,12.0
+2023,WY,Weyerhaeuser,8.0,1.0,9.0
+2023,WHR,Whirlpool Corporation,4.0,1.0,12.0
+2023,WMB,Williams Companies,9.0,1.0,12.0
+2023,WTW,Willis Towers Watson,8.0,1.0,10.0
+2023,GWW,W. W. Grainger,3.0,1.0,11.0
+2023,WYNN,Wynn Resorts,3.0,1.0,8.0
+2023,XEL,Xcel Energy,7.0,1.0,12.0
+2023,XYL,Xylem Inc.,8.0,1.0,10.0
+2023,YUM,Yum! Brands,6.0,1.0,10.0
+2023,ZBRA,Zebra Technologies,6.0,1.0,10.0
+2023,ZBH,Zimmer Biomet,8.0,1.0,10.0
+2023,ZION,Zions Bancorporation,8.0,1.0,11.0
+2023,ZTS,Zoetis,6.0,1.0,12.0

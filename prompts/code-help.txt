@@ -1,0 +1,259 @@
+# Create CEO v0 Table
+
+Write some python code to do the following.
+
+I have a df called ceo_010 with columns: ticker, directorid, directorname, rolename, datestartrole, dateendrole, univeristy, qualification
+I want to do the equivalent of a "left join" onto another df called sp500 which has columns: year, ticker, company_name
+
+I want to create the following columns:
+- valid_start: a column that will have an int corresponding to when the person became CEO. This year can be found in column: ceo_010.datestartrole
+- valid_end: a column that will have an int corresponding to when the person stopped being CEO. This year can be found in column ceo_010.dateendrole. If it does not exist, set the year as the current date.
+- tenure: the number of years that the person was CEO for (years between datestartrole and dateendrole). If dateendrole does not exist, set the tenure as the current year - datestartrole.
+- internal_promotion: if someone becomes CEO, I want to know if they were working within the company before (had another role at the same ticker before their datestartrole)
+- founder: Boolean column that is True if the person was a founder of the company (if they have the substring 'founder' in some upper or lower or camelcase in their rolename)
+
+I want to keep the rows that have the following conditions:
+- ceo_010.ticker is present in sp500.ticker for the same year (this means that the year value for the ticker df, is comprised within the years valid_start and valid_end
+- ceo_010.rolename contains the substring 'CEO' somewhere inside it
+- rows that don't have a ticker = None
+
+Here are the types of all the columns in both dfs:
+ceo_010
+ticker            object
+directorid       float64
+directorname      object
+rolename          object
+datestartrole     object
+dateendrole       object
+univeristy        object
+qualification     object
+
+sp500
+year             int64
+ticker          object
+company_name    object
+
+
+
+
+
+
+
+
+
+# Get column internal promotion
+
+Given that I am building my ceo_020 df as follows, add a step where I calculate a column name internal promotion.
+The way it needs to be done is: the ceo_010 dataset has 1 row per director per rolename per ticker with the dates of this role. Given that we are already calculating if someone is a CEO and if they are the a founder
+What we need to see is if at the same ticker (for non-founders), previous to having the rolename CEO, they had another rolename.
+
+If they do, then internal promotion should be True. Otherwise it should be False.
+We are starting with ceo_010 and sp500, dfs with the following columns and types:
+
+ceo_010
+ticker            object
+directorid       float64
+directorname      object
+rolename          object
+datestartrole     object
+dateendrole       object
+univeristy        object
+qualification     object
+
+sp500
+year             int64
+ticker          object
+company_name    object
+
+We are going from ceo_010 to ceo_020 as follows:
+
+# Get company info from BoardEx
+ceo_010 = db.raw_sql('SELECT comp.ticker, emp.directorid, emp.directorname, emp.rolename, emp.datestartrole, emp.dateendrole, edu.companyname as university, edu.qualification FROM boardex.na_wrds_dir_profile_emp emp INNER JOIN boardex.na_wrds_org_summary comp ON comp.boardid = emp.companyid LEFT JOIN boardex.na_dir_profile_education edu ON edu.directorid = emp.directorid GROUP BY comp.ticker, emp.directorid, emp.directorname, emp.rolename, emp.datestartrole, emp.dateendrole, university, edu.qualification;')
+
+# Save data to a CSV to not have to pull data over and over again
+ceo_010.to_csv('data_pull/db/ceo_010.csv', index=False, header=True)
+# ceo_010 = pd.read_csv('data_pull/db/ceo_010.csv')
+
+# Convert date columns to datetime
+ceo_010['datestartrole'] = pd.to_datetime(ceo_010['datestartrole'])
+ceo_010['dateendrole'] = pd.to_datetime(ceo_010['dateendrole'], errors='coerce')
+
+# For N/A values in dateendrole (still in position), we will replace them with the current date
+ceo_010['dateendrole'].fillna(pd.Timestamp(datetime.now()), inplace=True)
+
+# Create columns to know what years the rows are valid for
+ceo_010['valid_start'] = ceo_010['datestartrole'].dt.year
+ceo_010['valid_end'] = ceo_010['dateendrole'].dt.year
+
+# Calculate tenure
+ceo_010['tenure'] = ceo_010['valid_end'] - ceo_010['valid_start']
+
+# Identify founders
+ceo_010['founder'] = ceo_010['rolename'].str.contains('founder', case=False, na=False)
+
+# Perform the left join
+ceo_010 = pd.merge(sp500, ceo_010, how='left', on='ticker')
+
+# Filter rows based on conditions
+# 1. ceo_010.ticker is present in sp500.ticker for the same year
+# 2. rolename contains 'CEO'
+# 3. ticker is not None
+ceo_020 = ceo_010[
+    (ceo_010['rolename'].str.contains('CEO', case=False)) &
+    (ceo_010['rolename'].str.contains('division', case=False) == False) &
+    (ceo_010['ticker'].notna()) &
+    (ceo_010['year'] >= ceo_010['valid_start']) &
+    (ceo_010['year'] <= ceo_010['valid_end'])]
+
+ceo_020.to_csv('data_pull/db/ceo_020.csv', index=False, header=True)
+
+
+
+
+
+
+# Eliminate additional rows and calculate avg scores,... 
+
+Given that my ceo_030 had the following columns: year,ticker,company_name,directorid,directorname,rolename,valid_start,valid_end,tenure,founder,avg_score,bachelors,masters,mba,phd
+
+Write code to group every row by combination of year, ticker, directorid and will get the avg of avg_score, do an OR for the columns: bachelors,masters,mba,phd, get the minimum valid_start, and maximum valid_end, as well as the sum of tenure
+
+
+
+
+
+
+
+
+# Remove multiple CEOs for the same ticker:
+
+In my dataset ceo_040 I have the following columns:
+
+ticker,company_name,directorid,directorname,rolename,uniscoreavg,bachelors,masters,mba,phd,valid_start,valid_end,tenure,founder,internal_promotion
+
+I want to keep 1 row per ticker. There are 3 reason why I may have multiple rows per ticker: 
+1) There are different directorname values and therefore various CEOs are being considered at this ticker
+2) There multiple rows for the same director name because there are multiple rolenames for this director at this ticker
+3) There are different directorname values because they all contain co-ceo in their rolename.
+
+I want you to write the code for me that is then saved in a df named ceo_050 but handle each of the 3 cases described above differently:
+1) Keep the row for the CEO that has the latest valid_start
+2) Keep only 1 title and apply the following transformations to the columns:
+- Avg of uniscoreavg
+- OR of the columns: bachelors,masters,mba,phd, founder, internal_promotion
+- keep the minimum valid_start and maximum valid_end
+3) Keep only 1 row and apply the following transformations:
+- set directorname to co_ceo
+- set directorid to 12345
+- set rolename to CO-CEO
+- Avg of uniscoreavg
+- OR of the columns: bachelors,masters,mba,phd, founder, internal_promotion
+- keep the minimum valid_start and maximum valid_end
+
+These are the types of each of the columns:
+ticker                 object
+company_name           object
+directorid            float64
+directorname           object
+rolename               object
+uniscoreavg           float64
+bachelors                bool
+masters                  bool
+mba                      bool
+phd                      bool
+valid_start           float64
+valid_end             float64
+tenure                float64
+founder                  bool
+internal_promotion       bool
+
+
+Be careful with the following:
+1)  I don't want to a have is_co_ceo column
+2) I don't want you to remove any of my columns such as: directorname rolename
+3) I don't want you to rearrange my columns.
+4) I don't want to be using functions
+5) co-ceo still need to be grouped by ticker given that we are going from multiple rows to 1.
+
+Here is an example of each of the cases I gave you and the expected outcome:
+
+Case 1:
+BAC,Bank of America,35031.0,Terry Murray,Group CEO,93.73076923076923,True,False,False,False,2001.0,2024.0,23.0,False,False
+BAC,Bank of America,35043.0,Brian Moynihan,Chair/President/CEO,62.2826923076923,True,False,False,True,2014.0,2024.0,10.0,False,True
+BAC,Bank of America,454544.0,Hans Vestberg,Chairman/CEO,58.26153846153846,True,False,False,False,2019.0,2024.0,5.0,False,True
+
+Case 1 expected outcome:
+BAC,Bank of America,454544.0,Hans Vestberg,Chairman/CEO,58.26153846153846,True,False,False,False,2019.0,2024.0,5.0,False,True
+
+Case 2:
+AEE,Ameren,52502.0,Marty Lyons Jr,Chairman/President/CEO,47.5966079059829,True,True,True,False,2023.0,2024.0,1.0,False,True
+AEE,Ameren,52502.0,Marty Lyons Jr,President/CEO,47.5966079059829,True,True,True,False,2022.0,2023.0,1.0,False,True
+
+Case 2 expected outcome:
+AEE,Ameren,52502.0,Marty Lyons Jr, Chairman/President/CEO,47.5966079059829,True,True,True,False,2022.0,2024.0,1.0,False,True
+
+Case 3:
+CPRT,Copart,183351.0,Jay Adair,Co-CEO,40.33,False,False,False,False,2022.0,2024.0,2.0,False,True
+CPRT,Copart,621286.0,Jeff Liaw,Co-CEO,80.17136752136751,True,False,True,False,2022.0,2024.0,2.0,False,True
+
+Case 3 expected outcome:
+CPRT,Copart,12345,Co-CEO,Co-CEO,60.25068,True,False,True,False,2022.0,2024.0,False,True
+
+
+
+
+
+
+
+
+
+
+
+# Combine datasets promotion_020 and ceo_040 to make ceo_v0
+
+Given my 2 datasets with their respective columns:
+ceo_040: year,ticker,company_name,directorid,directorname,rolename,avg_score,bachelors,masters,mba,phd,valid_start,valid_end,tenure
+promotion_020: ticker,directorid,rolename
+
+I want to add the data from promotion_020 to ceo_040 by creating a column in ceo_040 called internal_promotion.
+
+When left joining promotion_020 onto ceo_040, on columns promotion_020[ticker,directorid,rolename] = ceo_040[ticker,directorid,rolename], if there exists a value in promotion_020 then internal_promotion should be True. Otherwise it should be False. 
+
+I do not want to keep any other data from promotion 020
+
+
+
+
+
+
+
+
+
+# Create DIV v0 Table
+
+Write some python code to do the following.
+
+I have a df called div_010 with columns: ticker, female, ethnicity , age, committeename
+I want to do the equivalent of a "left join" onto another df called sp500 so as to only keep the rows in div_010 that have a corresponding ticker in sp500. sp500 which has columns: year, ticker, company_name
+
+Given that div_010 has 1 row per executive at a company (ticker) I want to do the following:
+
+I want to create the following columns:
+- women_pct: a column that will have the pct of people on boards that are women (The column female has values 'Yes' if it is, otherwise its NaN)
+- diversity_board: I want this to be a boolean column depending on whether the company has a board dedicated to diversity. These will be boardnames with the substrings: 'divers' 'incl' or 'sustai' regardless of the case or position
+- diversity: this will be calculated, just like for the other 2 columns with 1 value per company, according to the shannon index. The formula can be seen in the picture uploaded with the prompt: 
+
+As stated above. in the end (div_020) should have 1 row per ticker with each of the 3 calculated scores defined above. The order of the columns should be year, ticker, company_name, followed by the ones in div_010.
+
+Here are the types of all the columns in both dfs:
+ceo_010
+ticker            object
+female            object
+ethnicity         object
+age              float64
+committeename     object
+
+sp500
+year             int64
+ticker          object
+company_name    object

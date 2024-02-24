@@ -71,7 +71,7 @@ dfs = []
 
 # Loop through each year, construct the file path, read the CSV, and add the 'year' column
 for year in years:
-    file_path = f'data_pull/raw/uni_rankings/{year}_rankings.csv'
+    file_path = f'data_pull/raw/{year}_rankings.csv'
     df = pd.read_csv(file_path)
     
     # Remove columns we don't want

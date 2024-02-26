@@ -6,7 +6,7 @@ from IPython.display import display
 from IPython.display import Markdown
 
 
-genai.configure(api_key='AIzaSyBBkNkaBknWJBxodvip5n0YtPQUu2Se-b4')
+genai.configure(api_key='')
 model = genai.GenerativeModel('gemini-pro')
 
 prompt = 'Give me a 3 line explanation of the concept of fundamental analysis for stocks.'

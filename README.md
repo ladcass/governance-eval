@@ -1,2 +1,2 @@
-# Dissertation: Using AI in the stock market evaluation through a fundamental approach
-Final year dissertation project. Creating the data pipeline to create a dataset that is understandable to understand some aspects of corporate governance.
+# Dissertation: Creating a Data Pipeline to Automate the Creation of a Dataset to Evaluate Corporate Governance of S\&P 1500 Companies
+Final year dissertation project. Creating the data pipeline to create a comprehensive dataset to evaluate the corporate governance of select companies.

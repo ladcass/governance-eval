@@ -1,4 +1,9 @@
-# Create CEO v0 Table
+#################################################################################################################
+################################################ DATA COLLECTION ################################################
+#################################################################################################################
+
+
+############################################## Create CEO v0 Table ##############################################
 
 Write some python code to do the following.
 
@@ -39,9 +44,8 @@ company_name    object
 
 
 
+############################################ Get column internal promotion ###########################################
 
-
-# Get column internal promotion
 
 Given that I am building my ceo_020 df as follows, add a step where I calculate a column name internal promotion.
 The way it needs to be done is: the ceo_010 dataset has 1 row per director per rolename per ticker with the dates of this role. Given that we are already calculating if someone is a CEO and if they are the a founder
@@ -111,8 +115,8 @@ ceo_020.to_csv('data_pull/db/ceo_020.csv', index=False, header=True)
 
 
 
-
-# Eliminate additional rows and calculate avg scores,... 
+#################################### Eliminate additional rows and calculate avg scores,... ######################################
+ 
 
 Given that my ceo_030 had the following columns: year,ticker,company_name,directorid,directorname,rolename,valid_start,valid_end,tenure,founder,avg_score,bachelors,masters,mba,phd
 
@@ -125,7 +129,7 @@ Write code to group every row by combination of year, ticker, directorid and wil
 
 
 
-# Remove multiple CEOs for the same ticker:
+########################################## Remove multiple CEOs for the same ticker #########################################
 
 In my dataset ceo_040 I have the following columns:
 
@@ -209,7 +213,7 @@ CPRT,Copart,12345,Co-CEO,Co-CEO,60.25068,True,False,True,False,2022.0,2024.0,Fal
 
 
 
-# Combine datasets promotion_020 and ceo_040 to make ceo_v0
+##################################### Combine datasets promotion_020 and ceo_040 to make ceo_v0 #####################################
 
 Given my 2 datasets with their respective columns:
 ceo_040: year,ticker,company_name,directorid,directorname,rolename,avg_score,bachelors,masters,mba,phd,valid_start,valid_end,tenure
@@ -229,7 +233,7 @@ I do not want to keep any other data from promotion 020
 
 
 
-# Create DIV v0 Table
+################################################ Create DIV v0 Table ################################################
 
 Write some python code to do the following.
 
@@ -257,3 +261,102 @@ sp500
 year             int64
 ticker          object
 company_name    object
+
+
+
+
+
+
+#################################################################################################################
+################################################## MAKE MODELS ##################################################
+#################################################################################################################
+
+#################################### Define what models for each prediction #####################################
+
+I have 2 datasets, and I want to make 3 models. I need to figure out what kind of model I want to do in order to predict the best value possible.
+
+My tables and their respective columns are:
+ceo_v0: ticker,company_name,directorid,directorname,rolename,uniscoreavg,bachelors,masters,mba,phd,valid_start,valid_end,founder,internal_promotion,roa,tobin_q
+board_v0: ticker,company_name,num_committees,dirs,over75_pct,num_meetings,avg_meetings,roe
+
+For both of these tables there is 1 row per ticker
+
+The 3 models I need to make have the following Xs and Ys:
+
+Model 1: Predict ceo_roa
+Model 1 X: ticker,uniscoreavg,bachelors,masters,mba,phd,valid_start,valid_end,founder,internal_promotion
+Model 1 Y: roa
+
+Model 2: Predict ceo_tobinq
+Model 2 X: ticker,uniscoreavg,bachelors,masters,mba,phd,valid_start,valid_end,founder,internal_promotion
+Model 2 Y: tobin_q
+
+Model 3: Predict board_roe
+Model 3 X: ticker,num_committees,dirs,over75_pct,num_meetings,avg_meetings
+Model 3 Y: roe
+
+ROE, ROA, and Tobin Q are financial KPIs to measure the performance of the companies (ticker)
+For each give me the ML or DL model you think I should apply to predict the given Y along with a quick explanation as to why that is the correct model.
+
+
+
+
+############################################ Build Model 1: CEO ROA #############################################
+
+Given my dataset ceo_v0 that has the following columns and columns:
+ticker                 object
+company_name           object
+GICS                   object
+directorid            float64
+directorname           object
+rolename               object
+uniscoreavg           float64
+bachelors                bool
+masters                  bool
+mba                      bool
+phd                      bool
+valid_start           float64
+valid_end             float64
+founder                  bool
+internal_promotion       bool
+is_co_ceo                bool
+tenure                float64
+roa                    object
+
+I want to build 1 CNN per GICS category and compare their accuracy in categorizing the ROA for a specific ticker.
+
+I want different model grouped by distinct GICS values. ONLY ONCE THIS IS DONE can we fit our models with the following Xs and Y:
+
+X=ticker,uniscoreavg,bachelors,masters,mba,phd,tenure,founder,internal_promotion,is_co_ceo
+Y=roa
+
+My ROA has already been turned into the following classes:
+'Extremely Negative ROA',
+'Very Highly Negative ROA',
+'Highly Negative ROA',
+'Moderately Negative ROA',
+'Low Positive ROA',
+'Moderate Positive ROA',
+'Fairly High Positive ROA',
+'Highly Positive ROA',
+'Very Highly Positive ROA',
+'Extremely Positive ROA'
+
+Preprocessing Steps:
+Categorical Variables: Use one-hot encoding or entity embeddings for neural networks to handle categorical variables like GICS or binary features like mba.
+Numerical Variables: Standardize or normalize features like uniscoreavg and tenure to improve model performance.
+Text Variables: If company_name or directorname is considered useful, text embedding techniques (e.g., TF-IDF, Word2Vec) could be applied, though it's less common for this specific task.
+
+Evaluation and Model Selection:
+Cross-Validation: Use techniques like k-fold cross-validation to evaluate model performance and avoid overfitting.
+Metrics: Precision, recall, F1-score, and accuracy are common metrics. Choose based on the importance of false positives vs. false negatives in your application.
+Model Tuning: Utilize grid search or random search for hyperparameter tuning to find the optimal settings for your chosen models.
+
+Write this python code to make the model. Don't try to optimize by putting the kinds into arrays and using for loops. I want the code to be as clear as can be with each model defined separately.
+
+########################################### Build Model 2: Board ROE ############################################
+
+
+########################################## Build Model 3: Diversity ROA #########################################
+
+

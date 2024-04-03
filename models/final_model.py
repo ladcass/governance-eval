@@ -5,6 +5,8 @@ from keras.models import Sequential
 from keras.layers import Dense, Input, Dropout
 from keras.optimizers import Adam
 from keras.utils import to_categorical
+from lime.lime_tabular import LimeTabularExplainer
+from lime.submodular_pick import SubmodularPick
 
 # Load the dataset
 df = pd.read_csv('data_pull/db/full_v0.csv')
@@ -70,3 +72,16 @@ df = df.dropna()
 df = df.merge(df_pred, on='ticker', how='left')
 
 df.drop(columns=['roachange']).to_csv('data_pull/db/final.csv', index=False)
+
+# Initialize the explainer with your training data and feature names
+# explainer = LimeTabularExplainer(training_data=X_train,
+#                                 feature_names=numeric_cols + binary_cols,
+#                                 class_names=label_encoder_roa.classes_,
+#                                 mode='classification')
+
+# Create a submodular pick object
+# sp_obj = SubmodularPick(explainer, X_train, model.predict, num_features=len(numeric_cols + binary_cols), num_exps_desired=10)
+
+# for i, exp in enumerate(sp_obj.sp_explanations):
+#    file_name = f'sp_lime_explanation_{i}.html'
+#    exp.save_to_file(file_name)  # Save each explanation to a separate HTML file

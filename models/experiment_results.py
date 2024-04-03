@@ -68,15 +68,15 @@ for model_name, accuracies in model_accuracies.items():
 significant_models = {k: v for k, v in model_stats.items() if v['alpha'] < 0.10}
 
 print("Significant models:")
-for name, stats in significant_models.items():
-    print(f"{name}: Mean Accuracy = {stats['mean_accuracy']:.4f}, p-value = {stats['alpha']:.4f}")
+for name, statistics in significant_models.items():
+    print(f"{name}: Mean Accuracy = {statistics['mean_accuracy']:.4f}, p-value = {statistics['alpha']:.4f}")
 
 # If only one model is significantly better, choose that one
 if len(significant_models) == 1:
     best_model = list(significant_models.keys())[0]
     print(f"Best model based on alpha < 0.10: {best_model}")
 elif len(significant_models) > 1:
-    # Sort models by mean accuracy descending
+
     sorted_models = sorted(significant_models.items(), key=lambda x: x[1]['mean_accuracy'], reverse=True)
     best_model = sorted_models[0][0]
     second_best_model = sorted_models[1][0]
@@ -84,8 +84,9 @@ elif len(significant_models) > 1:
     # Perform t-test between the best and second-best models
     best_acc = model_accuracies[best_model]
     second_best_acc = model_accuracies[second_best_model]
-    t_stat, diff_p_value = stats.ttest_ind(best_acc, second_best_acc, equal_var=False, alternative='greater')
 
+    t_stat, diff_p_value = stats.ttest_ind(best_acc, second_best_acc, equal_var=False, alternative='greater')
+    print(diff_p_value)
     if diff_p_value < 0.10:
         print(f"Best model based on comparison t-test: {best_model}")
     else:

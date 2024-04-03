@@ -110,14 +110,14 @@ ceo_030 = pd.merge(ceo_020, universities, left_on='matched_university', right_on
 
 # Clean the columns. Remove unneeded, and rename name to university
 ceo_030 = ceo_030.drop(columns=['university', 'matched_university'])
-ceo_030.rename(columns={'name': 'university'})
+ceo_030 = ceo_030.rename(columns={'name': 'university'})
 
 # Categorize distinct values of qualifications into appropriate degree levels
 undergrad = ['BS', 'BA', 'BSc', 'BCom', 'BA (magna cum laude)', 'BFA (Bachelors of Fine Arts Program)',
              'BSE (summa cum laude)', 'BASc', 'BTech', 'AB', 'BBA', 'BCom', 'BA (Hons)', 'BSEE', 'BA (summa cum laude)',
              'BBA (Hons)', "Bachelor's Degree (Hons)", 'BComm', 'BS (cum laude)', 'BCom (Hons)',
              'BAppSc (Bachelor of Applied Science)', 'BBA (summa cum laude)', "Bachelor's Degree", 'BE', 'BSBA',
-             'BSc (Hons)', 'BSE', 'AA', 'Graduated', 'Attended', 'Studied', 'Completed']
+             'BSc (Hons)', 'BSE', 'AA', 'Graduated', 'Attended', 'Studied', 'Completed', 'Degree']
 postgraduate = ['MA', 'MSc', 'MEng', 'MSEE', 'MPhil', 'MPA', 'MS', 'MSME', 'MSc (Hons)', 'MS (Hons)',
                 'Post Graduate Diploma', 'Graduate Diploma', 'Diploma', 'Certificate', 'Certified', 'Qualified',
                 'Chartered', 'Licensed', 'Registered', 'Certification', 'Advanced Management Program',
@@ -150,7 +150,7 @@ ceo_030['datestartrole'] = pd.to_datetime(ceo_030['datestartrole'])
 ceo_030['dateendrole'] = pd.to_datetime(ceo_030['dateendrole'], errors='coerce')
 
 # For N/A values in dateendrole (still in position), we will replace them with the current date
-ceo_030.fillna({['dateendrole']: pd.Timestamp(datetime.now())}, inplace=True)
+ceo_030.fillna({'dateendrole': pd.Timestamp(datetime.now())}, inplace=True)
 
 # Get average of university grade, if available, and remove duplicate rows
 aggregations = {

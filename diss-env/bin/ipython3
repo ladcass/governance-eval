@@ -1,4 +1,4 @@
-#!/Users/lucasamar/Library/CloudStorage/Dropbox/Lucas/03-Edinburgh/05-Year_4/00-Project/Code/diss-env/bin/python3.10
+#!/Users/lucasamar/Library/CloudStorage/Dropbox/Lucas/03-Edinburgh/05-Year_4/00-Project/Code/governance-eval/diss-env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -3,7 +3,6 @@ Final year dissertation project. Creating the data pipeline to create a comprehe
 
 The files are separated in the following logic:
 1) Data pull
-   
  1.1) company_pull.py -- Gets all the base information of the companies we will be looking at and creates db/companies.csv
  
  1.2) ceo_pull.py     -- Gathers information on CEO background and creates db/ceo_v0.csv
@@ -18,6 +17,8 @@ The files are separated in the following logic:
    
 3) Model training & evaluation
  2.1) experiments.py         -- Runs all models being tested and records their accuracies in .txt files in the accuracies directory
+
  2.2) experiment_results.py  -- Runs the statistical tests to identify the best-performing model
+ 
  2.3) final_model.py         -- Uses the best-performing model to predict the ROA change, creating db/final.csv as well as recording the LIME explanations in the lime_explanations directory
 
